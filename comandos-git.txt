@@ -1,0 +1,9 @@
+- Git status : El primer git status es para comprobar si el archivo fue agregado al repositorio, si muestra el archivo en rojo es que no ha sido agregado.
+
+- Git add . : Agrego todo el contenido al repositorio local.
+
+- Git status : El segundo confirma si el contenido fue agregado, el mostrar el archivo en verde es que fue agregado.
+
+- Git commit -m "": Guardamos el progreso en el repositorio y con la m le indicamos que lo siguente entre comillas sera un mensaje que indique lo que cambiamos.
+
+- Git push : Subimos el contenido local a el repositorio remoto de Github.
