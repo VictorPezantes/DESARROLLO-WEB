@@ -1,0 +1,8 @@
+comandos git  usados:
+
+primer paso/ digito el comando git status: para ver el estado del directorio
+segundo paso/ digito git add ., para agregar los cambio realizados.
+tercer paso/ nuevamente git status, para revisar si el cambio fue realizado.
+cuerto paso/ git commit para crear un nuevo commit con los cambio realizados.
+quinto paso/ digito git push, para enviar los cambios, al repositorio remoto.
+
