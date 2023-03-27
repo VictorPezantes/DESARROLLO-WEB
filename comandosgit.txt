@@ -1,5 +1,5 @@
-git status
-git add .
-git status
-git commit -m “documento txt”
-git push
+git status  "ver las modificaiones de los archivos"
+git add .  "para agregar los cambios como preseccion"
+git status " muestra el estado de los archivos modificados"
+git commit -m “documento txt”    confirmacion para subir los achivos modificados
+git push subir archivos a github
