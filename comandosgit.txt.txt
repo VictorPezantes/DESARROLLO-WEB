@@ -1,0 +1,9 @@
+Git status - Da una breve descripcion de los archivos y si esque estan dentro del repositorio, si el archivo esta en rojo quiere decir que no esta agregado.
+
+Gid add . - Agrega todo el contenido al repositorio.
+
+Git status - El segundo git status confirma si los archivos fueron agregados correctamente al repositorio.
+
+Git commit -m "" - Guarda el avance del repositorio y la "m" indica que acontinuacion debemos agregarle un nombre al commit.
+
+Git push - Subimos el contenido de nuestro local al repositorio remoto de github.
