@@ -1,0 +1,9 @@
+git clone: se utiliza para cloner repositorios.
+
+git checkout: se ocupa para cambiarse de rama.
+
+git status: muestra el estado de git.
+
+git commit -m: para cargar en head los cambios realizados.
+
+git push: para subir los cambios al repositorio.
