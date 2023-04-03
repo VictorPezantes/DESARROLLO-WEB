@@ -1,53 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <title>nembito</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-    <header>
+    <div class="b-example-divider"></div>
+
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#tecnic" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="#obj" class="nav-link px-2 text-white">objetivo</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+            </div>
+        </div> 
+    </header>
+
+    <div class="b-example-divider"></div>
+    <header id="tecnic">
         <h1>TECNIC</h1>
         <nav>
-            <img src="letra-t.jpg" alt="TECNIC">
-            <ul><a href="">inicio</a></ul>
-            <ul><a href="">login</a></ul>
-            <ul><a href="">jardineria</a></ul>
-            <ul><a href="">gafiteria</a></ul>
-            <ul><a href="">electrico</a></ul>
-            <ul><a href="">nana</a></ul>
-        
+            <img src="imagenes/letra-t.jpg" height="100">
+            <ul><a href="#jardineria">jardineria</a></ul>
+            <ul><a href="#gafiteria">gafiteria</a></ul>
+
         </nav>
-        <section>
-        <h2>OBJETIVO</h2>
-        <p>esta empresa esta es creada con el fin de ayudar a nuestros clientes a contratar gente especilisada para el cuidado o mantenciones de su hogar sin preocupaciones</p>
-        </section>
+        <section id="obj">
+            <h2>OBJETIVO</h2>
+            <p>esta empresa esta es creada con el fin de ayudar a nuestros clientes a contratar gente especilizada para
+                el cuidado o mantenciones de su hogar sin preocupaciones.</p>
+
+
+            </section>
     </header>
+
+
     <main>
-        <section>
+        <section id="jardineria">
             <h1>jardineria</h1>
             <article>
-                <h3>kevin alvarado</h3>
-                <img src="imagenes/istockphoto-1166634962-2048x2048.jpg">
-                <p>kevin un jardinero extraordinario con 5 anos de experiencia, herrramientas grandes y funcionales para dejarle la flor como nueva</p>
+                <h2>kevin alvarado</h2>
+                <img src="imagenes/istockphoto-1166634962-2048x2048.jpg" height="200">
+                <p>kevin un jardinero extraordinario con 5 anos de experiencia, herrramientas grandes y funcionales para
+                    dejarle la flor como nueva</p>
             </article>
             <article>
-                <h4>jorge bravo</h4>
-                <img src="imagenes/hombre-negro-28965861.jpg">
+                <h2>jorge bravo</h2>
+                <img src="imagenes/hombre-negro-28965861.jpg" height="200">
                 <p>1 año de experiencia, especialista en decorar tu jardin y regar con su gran manguera</p>
             </article>
         </section>
-        <section>
+
+        <br>
+
+        <section id="gafiteria">
             <h1>gafiteria</h1>
             <article>
                 <h2>raul vasquez</h2>
-                <img src="imagenes/stock-photo-strong-build-construction-worker-isolated-in-white-87617701.jpg" alt="">
+                <img src="imagenes/stock-photo-strong-build-construction-worker-isolated-in-white-87617701.jpg" height="200">
                 <p>gasfiter con 7 anos de experiencia, experto con el taladro</p>
             </article>
             <article>
-                <h1>veronica nuñes</h1>
-                <img src="imagenes/depositphotos_12760582-stock-photo-satisfied-senior-woman-with-eyeglasses.jpg" alt="">
+                <h2>veronica nuñes</h2>
+                <img src="imagenes/depositphotos_12760582-stock-photo-satisfied-senior-woman-with-eyeglasses.jpg"
+                    height="200">
                 <p>joven señora con 67 años de experiencia, especialista en destapar el lavaplatos</p>
             </article>
         </section>
@@ -56,5 +97,9 @@
     <footer>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
