@@ -2,29 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--meta keywords-->
-    <!--meta description-->
+    <meta name = "keywords" content = "informática, notebooks, almacenamiento, computadores">
+    <meta name = "description" content="Venta de artículos informáticos">
     <title>Artículos informáticos</title>
 </head>
 
 <body>
     <header>
         <section>
-            <div id="logo">INICIO</div>
+            <h1>Artículos Informáticos</h1>
         </section>
-        <nav>
+        <nav class="menú">
             <ul>
+                <li id="logo">INICIO</li>
                 <li><a href="#">Marcas</a></li>
                 <li><a href="#">Notebooks</a></li>
                 <li><a href="#">Accesorios</a></li>
                 <li><a href="#">Almacenamiento</a></li>
+                <li><img src="3577005.png" width="30" height="30" alt="Logo"></li>
             </ul>
-
-            <picture>
-                <source  type="3577005/webp" srcset="3577005.webp">
-                <img src="3577005.png">
-            </picture>
         </nav>
+        
     </header>
 
     <section>
@@ -78,7 +76,7 @@
         <li>ASUS ROG Strix G16   <a href="https://www.amazon.com/ASUS-ROG-Strix-Gaming-Laptop/dp/B0BV7XQ9V9/ref=sr_1_2?qid=1680566064&refinements=p_89%3AASUS&rnid=2528832011&s=computers-intl-ship&sr=1-2">Haz clic aquí para ver el producto</a></li> 
     </ol>
     </section>
-
+    <hr>
     <article>
     <img src="accesorios.jfif">
     </article>
@@ -93,26 +91,24 @@
 
     <footer>
         <h1>Contacto</h1>
-        <form action="html5-formularios.html" method="get">
-            <label form="nombre">Nombre:</label>
-            <input name="Nombre" type="text"> 
-            <label form="telefono">Teléfono:</label>
-            <input name="Teléfono" type="tel">  
-            <label form="correo">Correo:</label>
-            <input name="Correo" type="email">   
-
+        <form name ="formulario" method="get">
+            Nombre:
+            <input type="text" name="nombre" value="" />
+            <!---<label form="nombre">Nombre:</label>--->
+            <br><br>            
+            Teléfono:
+            <input type="tel" name="Teléfono" value=""/> 
+            <br><br> 
+            Correo electrónico:
+            <input type="email" name="Correo" value=""/>   
             <br><br>
-            <label form="escribanos">Escríbanos:</label> 
-            <input name="textarea" type="textarea">      
-
+            Escríbanos:
+            <textarea name="Escríbanos"rows="5" cols="50">Escribe aquí tu comentario:</textarea>    
             <br><br>
             <input type="submit" value="ENVIAR">
             </form>
-
     </footer>
-    </html>
-
-
-
-
 </body>
+
+
+</html>
