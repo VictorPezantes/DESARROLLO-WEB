@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="veterinaria, animales">
+    <meta name="description" content="Servicios de veterinaria">
+    <title>MY PET'S</title>
+</head>
+
+<body>
+
+    <body style="background-color:darkgoldenrod;">
+    </body>
+    <header>
+        <center>
+            <h1>Veterinaria Mi Pet's</h1>
+            <img src="e972ef1ec07485bb0d807fceca6d2715.png" width="50" height="50" alt="Logo">
+        </center>
+
+        <nav class="menú">
+            <ol>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Equipo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ol>
+    </header>
+
+    <main>
+        <section id="servicios">
+            <article>
+                <h2>Nuestros Servicios</h2>
+                <ul style="list-style-type:none;">
+                    <li>
+                        <dialog id="ms">
+                            <h2>Nuestras consultas generales</h2>
+                            <img src="consultas.png" alt="consultas" />
+                            <p>Vacunas</p>
+                            <p>Instalación de chips</p>
+                            <p>Desparasitación</p>
+                            <button id="close" onclick="document.getElementById('ms').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('ms').showModal()">Consultas
+                            generales</button>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <ul style="list-style-type:none;">
+                    <li>
+                        <dialog id="vacunacion">
+                            <h2>Vacunación</h2>
+                            <img src="vacunacion.jpg" width="200" height="200" alt="vacunacion" />
+                            <p>Triple Felina</p>
+                            <p>Antirrábica</p>
+                            <p>Octuple</p>
+                            <button id="close" onclick="document.getElementById('vacunacion').close()">Salir</button>
+                        </dialog>
+                        <button id="show"
+                            onclick="document.getElementById('vacunacion').showModal()">Vacunación</button>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <ul style="list-style-type:none;">
+                <li><dialog id="cirugia">
+                    <h2>Cirugia</h2>
+                    <img src="cirugia.jpg" width="200" height="200" alt="cirugia" />
+                    <p>Esterilización</p>
+                    <p>Traumatológica</p>
+                    <p>Oncológica</p>
+                    <button id="close" onclick="document.getElementById('cirugia').close()">Salir</button>
+                </dialog>
+                <button id="show" onclick="document.getElementById('cirugia').showModal()">Cirugia</button></li>
+                </ul>    
+            </article>
+
+            <article>
+                <ul style="list-style-type:none;">
+                <li><dialog id="laboratorio">
+                    <h2>Laboratorio</h2>
+                    <img src="laboratorio.avif" width="200" height="200" alt="cirugia" />
+                    <p>Exámenes de sangre</p>
+                    <p>Biopsias</p>
+                    <p>Toma de muestras</p>
+                    <button id="close" onclick="document.getElementById('laboratorio').close()">Salir</button>
+                </dialog>
+                <button id="show" onclick="document.getElementById('laboratorio').showModal()">Laboratorio</button></li>
+                </ul>  
+            </article>
+
+            <article>
+                <ul style="list-style-type:none;">
+                <li><dialog id="rx">
+                    <h2>Radiografía</h2>
+                    <img src="radiografia.jpg" width="200" height="200" alt="radiografia" />
+                    <p>Convencional</p>
+                    <p>Computarizada</p>
+                    <p>Digital</p>
+                    <button id="close" onclick="document.getElementById('rx').close()">Salir</button>
+                </dialog>
+                <button id="show" onclick="document.getElementById('rx').showModal()">Radiografía</button></li>
+                </ul>    
+            </article>
+
+
+        </section>
+    </main>
+
+    <section>
+        <h2>Nuestro Equipo</h2>
+        <p>Nuestro equipo de veterinarios esta altamente capacitado y comprometido con la salud de tus mascotas</p>
+        <ul>
+            <li>Veterinaria Alexandra Álamos</li>
+            <li>Cirujano Veterinario Arturo De La Vega </li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Contáctanos</h3>
+        <p>Dirección: Av. Apoquindo 7282, Las Condes.</p>
+        <p>Teléfono: 600 600 8000</p>
+        <p>Mail: veterinamipets@gmail.com</p>
+
+        <article>
+            <form name="formulario" method="get">
+                Nombre:
+                <input type="text" name="nombre" value="" placeholder="Ingresa tu nombre" required />
+                <br><br>
+                Correo electrónico:
+                <input type="email" name="correo" value="" placeholder="Ingresa tu correo" required />
+                <br><br>
+                Teléfono:
+                <input type="tel" name="Teléfono" value="" required />
+                <br><br>
+                Mensaje:
+                <textarea name="mensaje" rows="5" cols="50">Escribe aquí tu mensaje:</textarea>
+                <br><br>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </article>
+    </section>
+
+    <section>
+        <br><br>
+        <details>
+            <summary>Ver mapa de ubicación</summary>
+            <h2>Mapa My Pet's</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1068801924044!2d-99.16338478540117!3d19.410564746252454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6e1155d2a5%3A0x5c00a8f3e3f903e5!2sTorre%20Mayor!5e0!3m2!1sen!2smx!4v1619117384543!5m2!1sen!2smx"
+                width="300" height="430" style="border: 4px;;" allowfullscreen="" loading="lazy"></iframe>
+        </details>
+    </section>
+
+    <footer>
+        <center>
+            <p>Veterinaria MY PET'S - Todos los derechos reservados</p>
+            <p>Dirección: Av. Apoquindo 7282, Las Condes - Teléfono: 600 600 8000 - Mail:veterinamipets@gmail.com</p>
+        </center>
+    </footer>
+</body>
+
+</html>
