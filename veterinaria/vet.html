@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="veterinario,perro,gato,mascota">
+    <meta name="description" content="clinica veterinaria">
+    <title>MI PET'S</title>
+</head>
+
+<body style="background-color: darkgoldenrod;">
+    <header>
+        <img src="imagenes/logo vet.jpg" alt="" height="50px" width="50px">
+        <center>
+            <h1>Veterinaria MI PET'S</h1>
+        </center>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contactos">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="#servicios">
+            <article>
+                <h2>Nuestros servicios</h2>
+                <ul style="list-style-type:none;">
+                    <li><dialog id="nuestros servicios">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="imagenes/perrito.jpg" alt="perrito" />
+                        <p>Nosotros</p>
+                        <p>Mision</p>
+                        <p>Vision   </p>
+                        <button id="close" onclick="document.getElementById('nuestros servicios').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('nuestros servicios').showModal()">Consultas Generales</button>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <ul style="list-style-type:none;">
+                    <li><dialog id="vacunacion">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="imagenes/consulta perro.jpg" alt="consulta" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('vacunacion').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('vacunacion').showModal()">Vacunación</button>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <ul style="list-style-type:none;">
+                    <li><dialog id="cirugia">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="imagenes/cirugia vet.jpg" alt="ciru />
+                        <p>Cirugias</p>
+                        <p>Cirugias ambulatorias</p>
+                        <p>Precauciones</p>
+                        <button id="close" onclick="document.getElementById('cirugia').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('cirugia').showModal()">Cirugía</button>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <ul style="list-style-type:none;">
+                    <li><dialog id="laboratorio">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="imagenes/perro lamiendo.png" alt="lab" />
+                        <p>Atenciones</p>
+                        <p>Imagenologia</p>
+                        <p>Precauciones</p>
+                        <button id="close" onclick="document.getElementById('laboratorio').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('laboratorio').showModal()">Laboratorio</button>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <ul style="list-style-type:none;">
+                    <li><dialog id="Radiografia">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="imagenes/radiografia.jpg" alt="radio" />
+                        <p>Atenciones</p>
+                        <p>Sugerencias</p>
+                        <p>Precauciones</p>
+                        <button id="close" onclick="document.getElementById('Radiografia').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('Radiografia').showModal()">Radiografía</button>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+        <section id="#equipo">
+            <h2>Nuestro Equipo</h2>
+                <ul>
+                    <li>Rosa Espinosa - Jefa medica veterinaria</li>
+                    <li>Samuel Eto - Veterinario Asistente</li>
+                    <li>Raul - Secretario</li>
+                </ul>
+        </section>
+        <section id="#contactos">
+            <h2>Contáctanos</h2>
+            <p>Ubicados en la esquina de Londres con Paris, cerca del metro U. de Chile</p>
+            <p>Llamenos al +56912345678</p>
+            <article>
+                <form action="" style="inline-size: 0px;">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" placeholder="Lucas" type="text">
+                    <br>
+                    <label for="Email">Email</label>
+                    <input id="Email" name="Email" placeholder="Lucas@" type="email">
+                    <br>
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono" name="telefono" placeholder="+56" type="tel">
+                    <br>
+                    <label for="Comentarios">Comentarios</label>
+                    <textarea placeholder="Agregar comentarios" name="Comentarios" rows="10"></textarea>
+                    <input type="button" value="enviar">
+                </form>
+            </article>
+            <article>
+                <details>
+                    <summary>Ver mapa de ubicación</summary>
+                    <h2>Mapa My Pet's</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1068801924044!2d-99.16338478540117!3d19.410564746252454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6e1155d2a5%3A0x5c00a8f3e3f903e5!2sTorre%20Mayor!5e0!3m2!1sen!2smx!4v1619117384543!5m2!1sen!2smx" width="300" height="430" style="border: 4px;;" allowfullscreen="" loading="lazy"></iframe>
+                    </details>
+            </article>
+        </section>
+        <footer>
+            <p>Direccion: Santiago Centro</p>
+            <p>Correo: Lavet.centrica@gmail.com</p>
+            <p>Telefono: +569123456789</p>
+        </footer>
+</body>
+
+</html>
