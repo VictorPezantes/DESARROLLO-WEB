@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="veterinaria de animales" <meta name="keywords" content="veterinaria, perro, gato">
+
+    <title>MY PET'S</title>
+</head>
+
+<body style="background-color: darkgoldenrod;">
+    <header>
+        <img src="imagenes/modern-animal-pet-logo-template-free-vector.webp" height="50" width="50">
+        <center>
+            <h1>Veterinaria MI PET’S</h1>
+        </center>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#ser">servicio</a></li>
+            <li><a href="#equi">equipo</a></li>
+            <li><a href="#con">contacto</a></li>
+        </ul>
+    </nav>
+    <section id="ser">
+        <h2>Nuestro servicios</h2>
+        <article >
+            <ul style="list-style-type: none;">
+                <li>
+                    <dialog id="gatito">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="imagenes/gato_edad_natali_kuzina_shutterstock_portada.jpg" height="300" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('gatito').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('gatito').showModal()">Cirugía</button>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <ul style="list-style-type: none;">
+                <li>
+                    <dialog id="vacunatorio">
+                        <h2>vacunatorio</h2>
+                        <img src="imagenes/portada_2.jpg" height="300" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('vacunatorio').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('vacunatorio').showModal()">Vacunacion</button>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <ul style="list-style-type: none;">
+                <li>
+                    <dialog id="laboratorio">
+                        <h2>laboratorio</h2>
+                        <img src="imagenes/qué hace un técnico de laboratorio-1603357619.webp" height="300" />
+                        <p>Examenes</p>
+                        <p>Patologia</p>
+                        <button id="close" onclick="document.getElementById('laboratorio').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('laboratorio').showModal()">laboratorio</button>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <ul style="list-style-type: none;">
+                <li>
+                    <dialog id="radiografia">
+                        <h2>radiografia</h2>
+                        <img src="imagenes/radiografias-para-perros.jpg" height="300" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('radiografia').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('radiografia').showModal()">Radiografia</button>
+                </li>
+            </ul>
+        </article>
+        <section id="equi">
+            <h2>Nuestro Equipo</h2>
+            <ul>
+                <li>kevin alvarado - Cirujano</li>
+                <li>matias collihuin - Patologo</li>
+                <li>jorge pimentel - Medico</li>
+            </ul>
+        </section>
+
+        <section id="con">
+            <h2>Contactanos</h2>
+            <p>Estamos ubicados en la calle principal #1233</p>
+            <p>Puedes llamarnos al +5692254154</p>
+
+            <form action="" style="inline-size: 10px;">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" placeholder="juanito" type="text">
+                <br>
+            
+                <label for="correo">Email</label>
+                <input id="Email" name="Email" placeholder="raun@" type="text">
+                <br>
+            
+                <label for="nombre">Telefono</label>
+                <input id="telefono" name="telefono" placeholder="+569..." type="tel">
+                <br>
+
+                <label for="comentario">comentario</label>
+                <textarea placeholder="agregar comentario sobre la pagina..." name="comentaio" id="comentario" cols="30"
+                    rows="10">
+                </textarea>
+                <input type="button" value="enviar">
+            </form>
+        </section>
+        <section>
+            <details>
+                <summary>Ver mapa de ubicación</summary>
+                <h2>Mapa My Pet's</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1068801924044!2d-99.16338478540117!3d19.410564746252454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6e1155d2a5%3A0x5c00a8f3e3f903e5!2sTorre%20Mayor!5e0!3m2!1sen!2smx!4v1619117384543!5m2!1sen!2smx" width="300" height="430" style="border: 4px;;" allowfullscreen="" loading="lazy"></iframe>
+                </details>
+        </section>
+
+    </section>
+
+</body>
+
+</html>
