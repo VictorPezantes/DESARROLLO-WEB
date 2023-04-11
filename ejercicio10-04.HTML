@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="dercription" content="Ejemplo de pagina web">
+    <meta name="keywords" content="Ejemplo pag web">
+
+    <title>MY PET'S</title>
+    <style>
+        body {
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="imagenvet.jpg" alt="img_encabezado" width="150px" height="110">
+        <h1>Veterinaria MY PET´S</h1>
+        <nav>
+            <ol>
+                <li><a href="">Servicio</a></li>
+                <li><a href="">Equipo</a></li>
+                <li><a href="">Contacto</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Nuestro Equipo</h2>
+            <p>Nuestro equipo de profesionales esta altamente capacitado y comprometido con la salud de tus mascotas</p>
+                <ul>
+                    <li>Dr. Juan Perez - Medico Veterinario</li>
+                    <li>Dra. Ana Gomez - Medica Veterinaria</li>
+
+                </ul>
+        </section>
+        <section>
+            <h2>Contactanos</h2>
+            <p>Estamos ubicados en la calle principal #123</p>
+            <p>Puedes llamarnos al 555-1234 o escribirnos a info@veterinariaxyz.com</p>
+            <form action="">
+                <label style="display:inline-block; width:80px" for="">Nombre</label >
+                <input type="text" placeholder="ingrese su nombre:" required>
+            </form>
+
+            <form action="">
+                <label style="display:inline-block; width:80px" for="">Mail</label>
+                <input type="email" placeholder="ingrese su email:" required>
+            </form>
+
+            <form action="">
+                <label style="display:inline-block; width:80px" for="">Numero</label>
+                <input type="number" placeholder="ingrese su numero:" required>
+            </form>
+
+        </section>
+        <section id="Nuestros servicios">
+            <h2>Nuestros Servicios</h2>
+            <ul style="list-style-type: none">
+                <li>
+                    <dialog id="hamster">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="hamster.jpg" alt="conejito" />
+                        <button id="close" onclick="document.getElementById('hamster').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('hamster').showModal()">Consultas Generales</button>
+                        
+                </li>
+            </ul>
+            <ul style="list-style-type: none">
+                <li>
+                    <dialog id="gatito">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="gatito.jpg" alt="perrito" />
+                        <button id="close" onclick="document.getElementById('gatito').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('gatito').showModal()">Cirugía</button>
+
+                </li>
+            </ul>
+            <ul style="list-style-type: none">
+                <li>
+                    <dialog id="perrito">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="perrito.jpg" alt="perrito" />
+                        <button id="close" onclick="document.getElementById('perrito').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('perrito').showModal()">Laboratorio</button>
+
+                </li>
+            </ul>
+            <ul style="list-style-type: none">
+                <li>
+                    <dialog id="conejito">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="conejito.jpg" alt="conejito" />
+                        <button id="close" onclick="document.getElementById('conejito').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('conejito').showModal()">Radiografia</button>
+                        
+                </li>
+            </ul>
+            <ul style="list-style-type: none">
+                <li>
+                    <dialog id="pez">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="pez.jpg" alt="pez" />
+                        <button id="close" onclick="document.getElementById('pez').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('pez').showModal()">Vacunas</button>
+                        
+                </li>
+            </ul>
+        <section>
+            <label></label>
+        </section>
+        </section>
+        <section>
+            <details>
+                <summary>Ver mapa de ubicación</summary>
+                <h2>Mapa My Pet's</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1068801924044!2d-99.16338478540117!3d19.410564746252454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6e1155d2a5%3A0x5c00a8f3e3f903e5!2sTorre%20Mayor!5e0!3m2!1sen!2smx!4v1619117384543!5m2!1sen!2smx" width="300" height="430" style="border: 4px;;" allowfullscreen="" loading="lazy"></iframe>
+                </details>                
+        </section>
+        </ol>
+    </main>
+</body>
+<footer style="text-align: center
+;">
+    <p>Veterinaria MY PET´S - Todos los derechos reservados</p>
+    <p>Direccion calle principal 123# - telefono 555-1234 - Correco electronico info@veterinariaxyz.com</p>
+</footer>
+
+</html>
