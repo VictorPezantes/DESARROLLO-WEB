@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="veterinaria, alimento de mascota, Articulos de mascota, alimento perros, alimento gatos"
+    />
+    <title>MY PET'S</title>
+  </head>
+  <body>
+    <header>
+      <h1>Veterinaria My Pet's</h1>
+      <nav>
+        <ul>
+          <li><a id="servicios" href="#servicios">Nuestros Servicios</a></li>
+          <li><a id="equipo" href="#equipo">Nuestros Equipo</a></li>
+          <li><a id="contacto" href="#contacto">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="" alt="imagen_central" />
+      <!--Servicios-->
+      <section id="servicios" class="">
+        <h2>Nuestros Servicios</h2>
+        <article>
+          <ul>
+            <li>
+              <dialog id="ms_1">
+                <img src="" alt="img_nuestros_servicios" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellendus perferendis repellat ab necessitatibus expedita at
+                  debitis corrupti fugiat sapiente ipsa saepe, porro in ipsam
+                  blanditiis aut officiis et assumenda illo.
+                </p>
+                <button
+                  id="close"
+                  onclick="document.getElementById('ms_1').close()"
+                >
+                  Salir
+                </button>
+              </dialog>
+              <button
+                id="show"
+                onclick="document.getElementById('ms_1').showModal()"
+              >
+                Consultas generales
+              </button>
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <ul>
+            <li>
+              <dialog id="ms_2">
+                <img src="" alt="img_nuestros_servicios" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellendus perferendis repellat ab necessitatibus expedita at
+                  debitis corrupti fugiat sapiente ipsa saepe, porro in ipsam
+                  blanditiis aut officiis et assumenda illo.
+                </p>
+                <button
+                  id="close"
+                  onclick="document.getElementById('ms_2').close()"
+                >
+                  Salir
+                </button>
+              </dialog>
+              <button
+                id="show"
+                onclick="document.getElementById('ms_2').showModal()"
+              >
+                Vacunación
+              </button>
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <ul>
+            <li>
+              <dialog id="ms_3">
+                <img src="" alt="img_nuestros_servicios" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellendus perferendis repellat ab necessitatibus expedita at
+                  debitis corrupti fugiat sapiente ipsa saepe, porro in ipsam
+                  blanditiis aut officiis et assumenda illo.
+                </p>
+                <button
+                  id="close"
+                  onclick="document.getElementById('ms_3').close()"
+                >
+                  Salir
+                </button>
+              </dialog>
+              <button
+                id="show"
+                onclick="document.getElementById('ms_3').showModal()"
+              >
+                Cirugía
+              </button>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <ul>
+            <li>
+              <dialog id="ms_4">
+                <img src="" alt="img_nuestros_servicios" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellendus perferendis repellat ab necessitatibus expedita at
+                  debitis corrupti fugiat sapiente ipsa saepe, porro in ipsam
+                  blanditiis aut officiis et assumenda illo.
+                </p>
+                <button
+                  id="close"
+                  onclick="document.getElementById('ms_4').close()"
+                >
+                  Salir
+                </button>
+              </dialog>
+              <button
+                id="show"
+                onclick="document.getElementById('ms_4').showModal()"
+              >
+                Laboratorio
+              </button>
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <ul>
+            <li>
+              <dialog id="ms_5">
+                <img src="" alt="img_nuestros_servicios" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellendus perferendis repellat ab necessitatibus expedita at
+                  debitis corrupti fugiat sapiente ipsa saepe, porro in ipsam
+                  blanditiis aut officiis et assumenda illo.
+                </p>
+                <button
+                  id="close"
+                  onclick="document.getElementById('ms_5').close()"
+                >
+                  Salir
+                </button>
+              </dialog>
+              <button
+                id="show"
+                onclick="document.getElementById('ms_5').showModal()"
+              >
+                Radiografía
+              </button>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+         <!--Nuestro equipo-->
+
+         <section id="equipo">
+            <h2>Nuestro Equipo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam, sed repellendus odit molestias, cupiditate nihil amet quisquam numquam dolor unde quo illum culpa quibusdam eligendi repudiandae consequatur aliquam expedita.</p>
+            <ul>
+                <li>Dr. Moise Cornejo</li>
+                <li>Dr. Felipe Labarca</li>
+            </ul>
+         </section>
+
+      <!--Contactos-->
+
+      <section id="contacto" class="">
+        <h2>Contactos</h2>
+        <p>Apoquinto 600 , Las Condes, Region Metropolitana</p>
+        <p>Fono: +562 227435133</p>
+        <p>Email: veterinaria@mypets.cl</p>
+        <article>
+          <form action="">
+            <Label>Nombre:</Label>
+            <input type="text" required placeholder="tu nombre" />
+            <Label>Email:</Label>
+            <input type="email" required placeholder="tu email" />
+            <label for="">Teléfono:</label>
+            <input type="number" required placeholder="tu fono" />
+            <label for="">Tu mensaje</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Tu mensaje"
+            ></textarea>
+          </form>
+        </article>
+
+        <article>
+          <details>
+            <summary>Ver mapa de ubicación</summary>
+            <h2>Mapa My Pet's</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1068801924044!2d-99.16338478540117!3d19.410564746252454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6e1155d2a5%3A0x5c00a8f3e3f903e5!2sTorre%20Mayor!5e0!3m2!1sen!2smx!4v1619117384543!5m2!1sen!2smx"
+              width="300"
+              height="430"
+              style="border: 4px ;"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </details>
+        </article>
+      </section>
+    </main>
+    <footer>
+        <p>Apoquinto 600 , Las Condes, Region Metropolitana
+        Fono: +562 227435133
+        Email: veterinaria@mypets.cl</p>
+    </footer>
+</body>
+</html>
