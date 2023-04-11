@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Veterinaria">
+    <meta name="keywords" content="Animales">
+    <title>MY PETS</title>
+</head>
+
+<body style="background-color: darkgoldenrod;">
+    <header>
+        <img src="imagenes/3.jpg" alt="" width="50px" height="50px">
+        <center>
+            <h1>Veterinaria mi pets</h1>
+        </center>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Servicio">Servicio</a></li>
+            <li><a href="#Equipo">Equipo</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Nuestros servicios</h2>
+        <section id="#Servicio">
+            
+            <article>
+                
+                <ul style="list-style-type: none;">
+                    <li>
+                        <dialog id="gatito">
+                            <h2>¡Nuestras Consultas Generales!</h2>
+                            <img src="imagenes/2.jpg" alt="gato" />
+                            <p>Vacunas</p>
+                            <p>Instalación de chips</p>
+                            <p>Desparatización</p>
+                            <button id="close" onclick="document.getElementById('gatito').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('gatito').showModal()">Consultas generales</button>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <dialog id="Vacunación">
+                            <img src="imagenes/3.jpg" alt="gato" />
+                            <p>Vacunas</p>
+                            <p>Instalación de chips</p>
+                            <p>Desparatización</p>
+                            <button id="close" onclick="document.getElementById('Vacunación').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('Vacunación').showModal()">Vacunación</button>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <dialog id="Cirugía">
+                            <img src="imagenes/6.jpg" alt="gato" />
+                            <p>Vacunas</p>
+                            <p>Instalación de chips</p>
+                            <p>Desparatización</p>
+                            <button id="close" onclick="document.getElementById('Cirugía').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('Cirugía').showModal()">Cirugía</button>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <dialog id="Laboratorio">
+                            <img src="imagenes/4.jpg" alt="gato" />
+                            <p>Vacunas</p>
+                            <p>Instalación de chips</p>
+                            <p>Desparatización</p>
+                            <button id="close" onclick="document.getElementById('Laboratorio').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('Laboratorio').showModal()">Laboratorio</button>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <dialog id="Radiografía">
+                            <img src="imagenes/5.jpg" alt="gato" />
+                            <p>Vacunas</p>
+                            <p>Instalación de chips</p>
+                            <p>Desparatización</p>
+                            <button id="close" onclick="document.getElementById('Radiografía').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('Radiografía').showModal()">Radiografía</button>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <section id="#Equipo">
+        <h2>Nuestro Equipo</h2>
+        <ul>
+            <li>jose - Cirujano</li>
+            <li>ada - Enfermera</li>
+            <li>pedro - Doctor</li>
+            <li>maria - Asistente</li>
+        </ul>
+    </section>
+
+    <section id="#Contacto">
+        <h2>Contacto</h2>
+        <p>Dirección: Chilito</p>
+        <p>Télefono: +56912345678</p>
+        <p>Email: jdasjasdl@clinica.cl</p>
+        <article>
+            <h3>Contactanos</h3>
+            <form action="" style="inline-size: 100px;">
+                <label for="Nombre">Nombre: </label>
+                <input id="Nombre" placeholder="José" type="text">
+                <br>
+                <LABEL for="email">Email: </LABEL>
+                <input id="email" placeholder="hola@1.cl" type="email">
+                <br>
+                <label for="telefono">telefono: </label>
+                <input id="telefono" placeholder="+5691111111" type="tel">
+                <br>
+                <label for="comentario">Comentarios</label>
+                <textarea name="comentario" id="" cols="30" rows="10" placeholder="no mas de 50 caracteres"></textarea>
+                <input type="button" value="enviar">
+            </form>
+
+        </article>
+        <article>
+            <details>
+                <summary>Ver mapa de ubicación</summary>
+                <h2>Mapa My Pet's</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1068801924044!2d-99.16338478540117!3d19.410564746252454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6e1155d2a5%3A0x5c00a8f3e3f903e5!2sTorre%20Mayor!5e0!3m2!1sen!2smx!4v1619117384543!5m2!1sen!2smx" width="300" height="430" style="border: 4px;;" allowfullscreen="" loading="lazy"></iframe>
+                </details>
+        </article>
+    </section>
+    <footer>
+        <p>Direccion: las condes chile</p>
+        <p>Correo electronico: animales@safe.cl</p>
+        <p>Telefono: +56912623721</p>
+    </footer>
+
+</body>
+
+</html>
