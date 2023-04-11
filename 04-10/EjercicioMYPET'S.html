@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>MY PET'S</title>
+    <style>
+        body {
+            background-color: darkgoldenrod;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <img src="/04-10/karsten-winegeart-oU6KZTXhuvk-unsplash.jpg" alt="img_encabezado" width="50px" height="50px"/>
+            <h1>Veterinaria MI PET'S</h1>
+            <nav>
+                <ul style="list-style: none">
+                    <li><a href="#Nuestros_Servicios">Nuestros Servicio</a></li>
+                    <li><a href="#Nuestro_Equipo">Nuestro Equipo</a></li>
+                    <li><a href="">Nuestro Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="Nuestros_Servicios">
+                <h2>Nuestros Servicios</h2>
+                <article>
+                    <ul style="list-style: none">
+                        <li>
+                            <dialog id="CG">
+                                <h2>Consultas Generales</h2>
+                                <img src="" alt="" />
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <button id="close" onclick="document.getElementById('CG').close()">Salir</button>
+                            </dialog>
+                            <button id="show" onclick="document.getElementById('CG').showModal()">Consultas Generales</button>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                        <ul style="list-style: none">
+                            <li>
+                                <dialog id="Vacunación">
+                                    <h2>Vacunación</h2>
+                                    <img src="" alt="" />
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <button id="close" onclick="document.getElementById('Vacunación').close()">Salir</button>
+                                </dialog>
+                                <button id="show" onclick="document.getElementById('Vacunación').showModal()">Vacunación</button>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <ul style="list-style: none">
+                            <li>
+                                <dialog id="Cirugía">
+                                    <h2>Cirugía</h2>
+                                    <img src="" alt="" />
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <button id="close" onclick="document.getElementById('Cirugía').close()">Salir</button>
+                                </dialog>
+                                <button id="show" onclick="document.getElementById('Cirugía').showModal()">Cirugía</button>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <ul style="list-style: none">
+                            <li>
+                                <dialog id="Laboratorio">
+                                    <h2>Laboratorio</h2>
+                                    <img src="" alt="" />
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <button id="close" onclick="document.getElementById('Laboratorio').close()">Salir</button>
+                                </dialog>
+                                <button id="show" onclick="document.getElementById('Laboratorio').showModal()">Laboratorio</button>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <ul style="list-style: none">
+                            <li>
+                                <dialog id="Radiografía">
+                                    <h2>Radiografía</h2>
+                                    <img src="" alt="" />
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <button id="close" onclick="document.getElementById('Radiografía').close()">Salir</button>
+                                </dialog>
+                                <button id="show" onclick="document.getElementById('Radiografía').showModal()">Radiografía</button>
+                            </li>
+                        </ul>
+                    </article>
+            </section>
+            <section id="Nuestro_Equipo">
+                <h2>Nuestro Equipo</h2>
+                <p>Nuestro equipo de veterinarios esta capacitado y comprometido con la salud de nuestras mascotas</p>
+                <ul>
+                    <li>Dr.Juan Perez - Medico Veterinario</li>
+                    <li>Dra.Ana Perez - Medico Veterinario</li>
+                    <li>Andres Perez - Asistente</li>
+                </ul>
+            </section>
+            <section id="Nuestro_Contacto">
+                <h2>Nuestro Contacto</h2>
+                <p>Estamos Ubicados en Lo Barnechea #12.323</p>
+                <p>Puedes llamarnos al 9 3321 3244</p>
+                <p>O puedes escribirnos a info.vet@veterinaria.cl</p>
+                <article>
+                    <form action="">
+                        <label for="Nombre">Nombre: </label>
+                        <input type="text" id="Nombre" placeholder="Ingrese su Nombre" required>
+                        <br>
+                        <br>
+                        <label for="Email">Email: </label>
+                        <input type="email" id="Email" placeholder="Ingrese su Email">
+                        <br>
+                        <br>
+                        <label for="Telefono">Teléfono: </label>
+                        <input type="number" id="Telefono" placeholder="Ingrese su Teléfono">
+
+                    </form>
+                </article>
+                <article>
+                    <details>
+                        <summary>Ver mapa de mi ubicación</summary>
+                        <h2>Mapa My Pet's</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.733968862845!2d-70.51271930000001!3d-33.3518993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cbc4ec7b8667%3A0x27c5290f3b69ab24!2sEl%20Rodeo%2013350-13312%2C%20Lo%20Barnechea%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1681173409399!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </details>
+                </article>   
+            </section>
+        </main>
+        <footer>
+            <p>Lo Barnechea #12.323</p>
+            <p>info.vet@veterinaria.cl</p>
+            <p># 9 3321 3244</p>
+        </footer>
+    </body>
+</html>

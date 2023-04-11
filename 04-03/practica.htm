@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de productos informáticos">
+    <meta name="keywords" content="Paginaweb, venta, productos-informáticos">
+    <link rel="stylesheet" href="/03-04/practica.css">
+    <title>PRACTICA HTML</title>
+</head>
+<body>
+
+    <h1>VENTA DE ARTÍCULOS INFORMÁTICOS</h1>
+    <header>
+        <nav>
+            <ol>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+            </ol>
+        </nav>
+        <a href="#">Registrarme</a>
+        <a href="#">Iniciar sesión</a>
+    </header>
+
+    <main>
+        <h2>PRODUCTOS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Enlace</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://m.media-amazon.com/images/I/618zZ7u3sUL._AC_SY450_.jpg" alt="imagen1" width="100px" height="100px" ></td>
+                    <td>MageGee MK-Box - Teclado mecánico</td>
+                    <td>$ 18.835</td>
+                    <td><a href="https://www.amazon.com/-/es/MageGee-MK-Box-mec%C3%A1nico-retroiluminaci%C3%B3n-interruptor/dp/B098LG3N6R/ref=sr_1_8?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=24YV383EBEQIM&keywords=Keyboard&qid=1681158617&sprefix=teclado%2Caps%2C528&sr=8-8&th=1">link</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://m.media-amazon.com/images/I/617Q37+1nRL._AC_SY450_.jpg" alt="imagen2" width="100px" height="100px"></td>
+                    <td>SOONTRANS - Silla ergonómica</td>
+                    <td>$ 114.583</td>
+                    <td><a href="https://www.amazon.com/-/es/SOONTRANS-computadora-competitivo-reposabrazos-reposacabezas/dp/B08G13JS6W/ref=sr_1_8?keywords=gamer%2BChair&qid=1681158983&sprefix=silla%2Bga%2Caps%2C222&sr=8-8&th=1">link</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://m.media-amazon.com/images/I/71gEchv1RhL._AC_SY450_.jpg" alt="imagen3" width="100px" height="100px"></td>
+                    <td>Escritorio para computadora en forma de L</td>
+                    <td>$ 89.300</td>
+                    <td><a href="https://www.amazon.com/-/es/SUPERJARE-Escritorio-computadora-escritorio-almacenamiento/dp/B0BD5B6XV9/ref=sr_1_31?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3A1KD4EU2C14H&keywords=Desk&qid=1681159211&sprefix=escritorio%2Caps%2C228&sr=8-31">link</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <section id="formulario">            
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <form name="datos_contacto" action="">
+                <fieldset><!-- AGRUPACIÓN DE DATOS -->
+                    <legend>Datos de contacto</legend>
+
+                    <label for="nombre ">
+                        Nombre
+                    <input  type="text" id="nombre" name="nombre" placeholder="Ingrese aquí..." required>
+                    </label>
+
+                    <label for="">
+                        Apellido
+                    <input type="text" name="apellido" placeholder="Ingrese aquí...">
+                    </label>
+
+                    <label for="">
+                        Contacto
+                    <input type="tel" name="contacto" placeholder="Ingrese aquí...">
+                    </label>
+
+                    <label for="">
+                        Email
+                    <input type="text" name="email" placeholder="Ingrese aquí...">
+                    </label>
+
+                    <label for="">
+                        Subir archivo
+                    <input type="file" name="archivo" placeholder="Suba su archivo">
+                    </label>
+
+                    <button type="submit" value="Enviar formulario">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <aside>
+        <h1></h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j1VVY2sEdC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </aside>
+</body>
+</html>
