@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Servicios de Tecnología</title>
+</head>
+
+<body style="background-color:lightcyan;">
+<header>
+    
+<h1 style="text-align: center;">TISystems</h1> <!--titulo centrado-->
+<nav>
+<section style="text-align: left;"> <!--navegadores a la izquierda-->
+<ul style="display: inline-flex; list-style-type: none;font-size: xx-large;">
+<li><a href="#servicios">Servicios</a></li>
+<li>&nbsp;</li> <!--espacios entre palabras-->
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li><a href="#productos">Productos</a></li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li><a href="#blog">Blog</a></li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li><a href="#nosotros">Nosotros</a></li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li><a href="#contacto">Contacto</a></li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+</ul>
+</section>
+<ul style="list-style-type: none;display: inline-flex;">
+<li><img width="300" ; height="200" src="servicio1.jpeg" alt=""></li>
+<li><img width="300" ; height="200" src="servicio2.jpeg" alt=""></li>
+<li><img width="300" ; height="200" src="servicio3.jpeg" alt=""></li> <!--lista de imagenes-->
+<li><img width="300" ; height="200" src="servicio4.jpeg" alt=""></li>
+<li><img width="300" ; height="200" src="servicio5.jpeg" alt=""></li>
+</ul>
+</nav>
+
+
+<section style="text-align: justify;">
+<h2>Bienvenidos al sitio web de nuestros servicios de informática. Somos una empresa dedicada a brindar
+soluciones informáticas para tu hogar y negocio.
+
+Nuestro equipo de expertos en tecnología se encuentra a tu disposición para asistirte en cualquier
+problema que puedas tener en tu equipo o sistema. Desde reparación de computadoras hasta
+asesoramiento para la implementación de soluciones tecnológicas para tu empresa, estamos
+listos para ayudarte.<br>
+No esperes más y ponte en contacto con nosotros para comenzar a disfrutar de nuestros servicios de
+informática de alta calidad. ¡Te esperamos!</h2>
+</section>
+
+
+</header>
+<main>
+<section id="servicios"> <!--tabla-->
+<h2>Servicios</h2>
+<table border="2px">
+<tr>
+<th>Reparación y mantenimiento de computadoras.</th>
+<th>Descripción</th>
+</tr>
+
+<tr>
+<td>Asesoramiento para la adquisición de hardware y software.</td>
+<td>Descripción del servicio 1</td>
+</tr>
+<tr>
+<td>Implementación y configuración de redes de datos.</td>
+<td>Descripción del servicio 2</td>
+</tr>
+<tr>
+<td>Instalación y configuración de sistemas operativos y programas.</td>
+<td>Descripción del servicio 3</td>
+</tr>
+
+</table>
+</section>
+
+<section id="productos">
+<h2>Productos</h2>
+<select> <!--seleccion-->
+<option value="producto1">Cámaras web</option>
+<option value="producto2">Antivirus y software de seguridad</option>
+<option value="producto3">Tablets</option>
+<option value="producto4">Dispositivos de almacenamiento externo</option>
+<option value="producto5">Impresoras</option>
+<option value="producto1">Software de edición de fotos y videos</option>
+<option value="producto2">Sistemas operativos</option>
+<option value="producto3">Software de ofimática</option>
+<option value="producto4">Teléfonos inteligentes</option>
+<option value="producto5">Computadoras portátiles</option>
+</select>
+</section>
+
+<section id="video">   <!--dialog-->
+<dialog id="ms">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gza1O_jqMHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<button id="close" onclick="document.getElementById('ms').close()">Salir</button>
+</dialog> <br>
+<button id="show" onclick="document.getElementById('ms').show()">Ver video de nuestros servicios</button>
+</section>
+
+<section id="nosotros">
+<h2>Nosotros</h2>
+<p>Contenido sobre nosotros.</p>
+</section>
+
+<section id="contacto">
+<h2>Contacto</h2>
+<form>
+<label style="display: inline-block;width: 80px;" for="nombre">Nombre:</label> <!--formulario-->
+<input type="text" id="nombre" name="nombre" ><br><br>
+<label style="display: inline-block;width: 80px;" for="email">Email:</label>
+<input type="email" id="email" name="email" ><br><br>
+<label style="display: inline-block;width: 80px;" for="mensaje">Mensaje:</label>
+<textarea id="mensaje" name="mensaje" ></textarea><br><br>
+<input type="submit" value="Enviar">
+</form>
+</section>
+</main>
+
+<section id="noticias"> <!--seccion de noticias-->
+<h2>Noticias de Actualidad en Informática</h2>
+<article id="article">
+<h2>Noticia sobre Apple</h2>
+<p>Apple presenta nuevos modelos de MacBook Pro con chips M1 de Apple: En octubre de 2021, Apple
+presentó una nueva línea de MacBook Pro con un nuevo chip M1 Pro y un chip M1 Max, lo que permite a
+los usuarios obtener un rendimiento de procesamiento y gráficos mejorados.</p>
+</article>
+<article>
+<h2>Noticia sobre Facebook</h2>
+<p>Facebook cambia su nombre a Meta en un cambio de estrategia hacia la realidad virtual: En octubre de
+2021, Facebook anunció que cambiará su nombre corporativo a Meta y centrará su estrategia en la
+realidad virtual y aumentada.</p>
+</article>
+<article>
+<h2>Noticia sobre IA</h2>
+<p>La Unión Europea presenta propuestas para restringir el uso de la inteligencia artificial: En abril de 2021, la Unión Europea presentó un conjunto de propuestas para restringir el uso de la inteligencia artificial, incluyendo la prohibición de la vigilancia masiva y la restricción del uso de la IA en sistemas de puntuación social.</p>
+</article>
+</section>
+
+<article> <!--otras noticias-->
+<h2>Noticia sobre Chile</h2>
+<p>Gobierno chileno introduce nueva legislación sobre cambio climático: El 5 de abril de 2023, el gobierno chileno presentó un nuevo proyecto de ley destinado a combatir el cambio climático. La propuesta contempla reducciones significativas en las emisiones de gases de efecto invernadero para el año 2030 y
+establece una hoja de ruta para lograr la neutralidad de carbono para el año 2050.</p>
+</article>
+<article>
+<h2>Noticia sobre Medicina</h2>
+<p>Los científicos han identificado una molécula llamada "CD7" que se encuentra en células cancerosas y parece ser un objetivo prometedor para el tratamiento. La molécula CD7 se encuentra en muchas formas de cáncer, incluyendo la leucemia y el linfoma, lo que significa que un tratamiento efectivo podría tener un gran impacto en la lucha contra el cáncer.</p>
+</article>
+
+<section id="blog">
+<h2>Blog</h2>
+<h2>La era digital: explorando el mundo de la informática</h2>
+<p>Bienvenidos a mi blog de informática, donde exploraremos juntos el fascinante mundo de la tecnología y la informática. En este espacio encontrarás artículos sobre programación, seguridad informática, inteligencia artificial, redes y mucho más. ¡Empecemos!</p>
+<h2>Programación para principiantes</h2>
+<p>En este artículo, explicaré los conceptos básicos de programación y ofreceré algunos consejos para quienes quieren aprender a programar. También presentaré algunos lenguajes de programación populares y sus aplicaciones.</p>
+<h2>Ciberseguridad en la era digital</h2>
+<p>Con la creciente amenaza de los ciberataques, la seguridad informática se ha vuelto más importante que nunca. En este artículo, exploraremos las mejores prácticas de seguridad en línea y ofreceré algunos consejos para proteger tus datos personales.</p>
+<h2>Inteligencia artificial</h2>
+<p>La inteligencia artificial es una de las tecnologías más emocionantes y prometedoras en la actualidad. En este artículo, exploraremos los conceptos básicos de la inteligencia artificial y cómo está siendo utilizada en el mundo actual.</p>
+<h2>Redes</h2>
+<p>Las redes son una parte fundamental de la informática, y en este artículo, exploraremos los diferentes tipos de redes, así como los protocolos y estándares que se utilizan en su funcionamiento.</p>
+<h2>Herramientas y recursos de informática</h2>
+<p>En este artículo, presentaré una lista de herramientas y recursos útiles para los profesionales de la informática, desde editores de texto y IDEs hasta herramientas de análisis de datos y visualización.</p>
+<p>La informática es una parte integral de nuestra vida diaria, y espero que este blog haya sido útil para entender un poco más sobre este fascinante mundo. Si tienes alguna pregunta o comentario, ¡no dudes en hacérmelo saber en la sección de comentarios!</p>
+</section>
+<!-- <p style="font-size: x-large;">La inteligencia -->
+
+<footer style="text-align: center;">  <!--cierre-->
+<p>&copy; Veterinaria MY PET'S - Todos los derechos reservados</p>
+<p>Dirección: Calle Principal #123 - Teléfono: 555-1234 - Correo electrónico: info@veterinariamypets.com</p>
+</footer>
+</body>
+</html>

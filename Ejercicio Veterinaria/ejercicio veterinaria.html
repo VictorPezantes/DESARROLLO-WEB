@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="veterinaria">
+    <meta name="keywords" content="asistencia veterinaria">
+    <title>MI PETS</title>
+    <noscript></noscript>
+
+</head>
+
+<body style="background-color: darkgoldenrod;">
+    <header style="text-align: center;">
+       
+            <h1>Veterinaria MI PET’S</h1>
+            <img src="logo.JPG" alt="perrito" height="50">
+          
+
+        <!-- -->
+    </header>
+    <nav>
+        <p><a href="#NUESTROS SERVICIOS">SERVICIO</a></p>
+        <p><a href="#NUESTROS EQUIPO">EQUIPO</a></p>
+        <p><a href="#CONTACTANOS">CONTACTO</a></p>
+    </nav>
+
+    <main>
+        <section id="NUESTROS SERVICIOS">
+            <h2>Nuestros Servicios</h2>
+            <ul style="list-style-type:none">
+                <li>
+                    <dialog style="text-align: left;" id="info1"> <!--info1-->
+                        <h2>¡Consultas Generales!</h2>
+                        <img src="dog.jpg" alt="perrito" />
+                        <p>Alergias e infecciones de la piel</p>
+                        <p>Malestar estomacal o diarreas</p>
+                        <p>Infección de oído</p>
+                        <button id="close" onclick="document.getElementById('info1').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('info1').showModal()">Consultas
+                        Generales</button>
+                </li>
+                <li>
+                    <dialog id="info2">
+                        <h2>¡Vacunacion!</h2>
+                        <img src="dog1.jpg" alt="perrito" />
+                        <p>Distemper</p>
+                        <p>Parvovirus</p>
+                        <p>Leptospirosis</p>
+                        <button id="close" onclick="document.getElementById('info2').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('info2').showModal()">Vacunacion</button>
+                </li>
+                <li>
+                    <dialog id="gatito">
+                        <h2>¡Cirugia!</h2>
+                        <img src="dog2.jpg" alt="perrito" />
+                        <p>Oncológica</p>
+                        <p>Digestiva</p>
+                        <p>Aparato urinario</p>
+                        <button id="close" onclick="document.getElementById('gatito').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('gatito').showModal()">Cirugía</button>
+                </li>
+                <li>
+                    <dialog id="info3">
+                        <h2>¡Laboratorio!</h2>
+                        <img src="dog3.jpg" alt="perrito" />
+                        <p>Hemograma</p>
+                        <p>Perfil Bioquímico</p>
+                        <p>Estudios de orina</p>
+                        <button id="close" onclick="document.getElementById('info3').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('info3').showModal()">Laboratorio</button>
+                </li>
+                <li>
+                    <dialog id="info4">
+                        <h2>¡Radiografia!</h2>
+                        <img src="dog4.jpg" alt="perrito" />
+                        <p>Tomografía computarizada</p>
+                        <p>Fluoroscopia con escaneo</p>
+                        <p>Ortopantomografía</p>
+                        <button id="close" onclick="document.getElementById('info4').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('info4').showModal()">Radiografia</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <section id="NUESTROS EQUIPO">
+        <h2>Nuestro Equipo</h2>
+        <h3>
+            <p>Dr. Marco Ojeda</p>
+            <p>Dra. Fabiola Salas</p>
+            <p>Dr. Nick Schimeth</p>
+            <p>Dra. Paula Hermer</p>
+        </h3>
+    </section>
+    <section id="CONTACTANOS">
+        <h2>Contactanos</h2>
+        <P>Direccion: Suecia 3580 Of. 100, Ñuñoa.</P>
+        <P>Telefono: +562 2325 1010</P>
+        <P>Email:Contactoveterinaria@veterinariamipets</P>
+        <article>
+            <h3>Formulario de Contacto</h3>
+            <form action="">
+                <label style="display: inline-block; width: 80px;" for="nombre">nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="ingrese nombre" required> <br>
+
+                <label style="display: inline-block; width: 80px;" for="email">email:</label>
+                <input type="email" id="email" name="email" placeholder="ingresa email" required> <br>
+
+                <label style="display: inline-block; width: 80px;" for="telefono">telefono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="ingrese telefono" required> <br>
+                <input type="submit" value="enviar">
+            </form>
+        </article>
+        <article>
+            <details>
+                <summary>Ver mapa de ubicación</summary>
+                <h2>Mapa My Pet's</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1068801924044!2d-99.16338478540117!3d19.410564746252454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6e1155d2a5%3A0x5c00a8f3e3f903e5!2sTorre%20Mayor!5e0!3m2!1sen!2smx!4v1619117384543!5m2!1sen!2smx"
+                    width="300" height="430" style="border: 4px;;" allowfullscreen="" loading="lazy"></iframe>
+            </details>
+        </article>
+        <footer style="text-align: center;">
+            <P>Direccion: Suecia 3580 Of. 100, Ñuñoa.</P>
+            <P>Telefono: +562 2325 1010</P>
+            <P>Email:Contactoveterinaria@veterinariamipets</P>
+        </footer>
+</body>
+</html>
