@@ -14,15 +14,15 @@
     </body>
     <header>
         <center>
-            <h1>Veterinaria Mi Pet's</h1>
+            <h1>Veterinaria My Pet's</h1>
             <img src="e972ef1ec07485bb0d807fceca6d2715.png" width="50" height="50" alt="Logo">
         </center>
 
         <nav class="menú">
             <ol>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Equipo</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ol>
     </header>
 
@@ -81,7 +81,7 @@
                 <ul style="list-style-type:none;">
                 <li><dialog id="laboratorio">
                     <h2>Laboratorio</h2>
-                    <img src="laboratorio.avif" width="200" height="200" alt="cirugia" />
+                    <img src="laboratorio.avif" width="200" height="200" alt="laboratorio" />
                     <p>Exámenes de sangre</p>
                     <p>Biopsias</p>
                     <p>Toma de muestras</p>
@@ -109,7 +109,7 @@
         </section>
     </main>
 
-    <section>
+    <section id="equipo">
         <h2>Nuestro Equipo</h2>
         <p>Nuestro equipo de veterinarios esta altamente capacitado y comprometido con la salud de tus mascotas</p>
         <ul>
@@ -118,11 +118,11 @@
         </ul>
     </section>
 
-    <section>
+    <section id="contacto">
         <h3>Contáctanos</h3>
         <p>Dirección: Av. Apoquindo 7282, Las Condes.</p>
         <p>Teléfono: 600 600 8000</p>
-        <p>Mail: veterinamipets@gmail.com</p>
+        <p>Mail: veterinamypets@gmail.com</p>
 
         <article>
             <form name="formulario" method="get">
@@ -136,7 +136,7 @@
                 <input type="tel" name="Teléfono" value="" required />
                 <br><br>
                 Mensaje:
-                <textarea name="mensaje" rows="5" cols="50">Escribe aquí tu mensaje:</textarea>
+                <textarea name="mensaje" rows="5" cols="50" placeholder="Escribe aquí tu mensaje:"></textarea>
                 <br><br>
                 <input type="submit" value="ENVIAR">
             </form>
