@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Esta es una pagina de Veterinaria">
+    <meta name="keywords" content="Veterinaria">
+    <title>"MY PET'S"</title>
+</head>
+
+<body style="background-color: darkgoldenrod;"></body>
+<header>
+    <img src="Pelu.jpg" width="50" height="50">
+    <center>
+        <h1>Veterinaria Mi Pet's</h1>
+    </center>
+    <nav class="menu">
+        <li><a href="#Nuestros Servicios">Servicios</a></li>
+        <li><a href="#Nuestro Equipo">Equipo</a></li>
+        <li><a href="#Contactanos">Contacto</a></li>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <div id="Nuestros Servicios"></div>
+        <h1><u>Nuestros Servicios.</u></h1>
+        <article>
+            <ol>
+                <li>
+                    <dialog id="gatito">
+                        <h2>¡Nuestras Consultas Generales!</h2>
+                        <img src="animal1.jpg" width="250" height="250" alt="gatito" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('gatito').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('gatito').showModal()">Consultas
+                        Generales</button>
+                </li>
+                <li>
+                    <dialog id="hamster">
+                        <h2>¡Vacunación!</h2>
+                        <img src="animal2.jpg" width="250" height="250" alt="hamster" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('hamster').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('hamster').showModal()">Vacunacion</button>
+                </li>
+                <li>
+                    <dialog id="conejo">
+                        <h2>¡Cirugia!</h2>
+                        <img src="animal3.jpg" width="250" height="250" alt="conejo" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('conejo').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('conejo').showModal()">Cirugia</button>
+                </li>
+                <li>
+                    <dialog id="tortuga">
+                        <h2>¡Laboratorio!</h2>
+                        <img src="animal4.jpg" width="250" height="250" alt="tortuga" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('tortuga').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('tortuga').showModal()">Laboratorio</button>
+                </li>
+                <li>
+                    <dialog id="huron">
+                        <h2>¡Radiografia!</h2>
+                        <img src="animal5.jpg" width="250" height="250" alt="huron" />
+                        <p>Vacunas</p>
+                        <p>Instalación de chips</p>
+                        <p>Desparatización</p>
+                        <button id="close" onclick="document.getElementById('huron').close()">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('huron').showModal()">Radiografia</button>
+                </li>
+            </ol>
+        </article>
+    </section>
+</main>
+
+<body>
+
+    <!-- Inicio de Equipo -->
+    <section>
+        <div id="Nuestro Equipo">
+            <h1><u>Nuestro Equipo.</u></h1>
+            <p>El equipo de veterinarios esta conformado por:</p>
+            <ul>
+                <li>Yair Ledesma</li>
+                <li>Jose Silva</li>
+                <li>Martin Vega</li>
+                <li>Vladimir Neira</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Fin de Equipo -->
+
+    <!-- Inicio de Contacto -->
+    <section>
+        <div id="Contactanos">
+            <h1><u>Contactanos.</u></h1>
+            <p>Estamos ubicados en #742 Evergreen Terrace</p>
+            <p>Puedes llamarnos al KL5-3226</h2>
+            </p>
+            <p>O escribirnos a <a href="mailto:contacto@vetpets.com">contacto@vetpets.com</a></p>
+            <form>
+                <table>
+                    <tr>
+                        <td>Nombre: </td>
+                        <td><input type="text" placeholder="Introduza su Nombre"></td>
+                    </tr>
+                    <tr>
+                        <td>Email: </td>
+                        <td><input type="email" placeholder="Introduza su Email"></td>
+                    </tr>
+                    <tr>
+                        <td>Telefono: </td>
+                        <td><input type="tel" placeholder="Introduza su Telefono"></td>
+                    </tr>
+                    <tr>
+                        <td>Mensaje: </td>
+                        <td><textarea name="comentarios" rows="4" cols="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar"></td><br>
+                    </tr>
+                </table>
+            </form><br>
+            <article>
+                <details>
+                    <summary>Ver mapa de ubicación</summary>
+                    <h2>Mapa My Pet's</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1068801924044!2d-99.16338478540117!3d19.410564746252454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6e1155d2a5%3A0x5c00a8f3e3f903e5!2sTorre%20Mayor!5e0!3m2!1sen!2smx!4v1619117384543!5m2!1sen!2smx"
+                        width="300" height="430" style="border: 4px;;" allowfullscreen="" loading="lazy"></iframe>
+                </details>
+            </article>
+        </div>
+    </section>
+    <!-- Fin del Contacto -->
+</body>
+<!-- Inicio del Footer -->
+<footer style="text-align: center;">
+    <p>___________________________________________________________________________________________________</p>
+    <p> Veterinaria MY PET'S&copy; - Todos los derechos reservados</p>
+    <p>#742 Evergreen Terrace, Springfield</p>
+    <p>KL5-3226</p>
+    <p><a href="mailto:contacto@vetpets.com">contacto@vetpets.com</a></p>
+</footer>
+<!-- Fin del Footer -->
+
+</html>
