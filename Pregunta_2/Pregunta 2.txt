@@ -1,0 +1,12 @@
+1-Todo el contenido de la pagina a continuacion va dentro de la etiqueta BODY. (<body>)
+2-Floreria Rosalinda es el H1 el titulo principal de la pagina.(<h1>)
+3-Bienvenidos a nuestra pagina es el H2 de la pagina como subtitulo.(<h2>)
+4-El NAV va dentro del header para que este quede en la parte superior de la pagina.(<header>)
+5-Productos empleados y contactos es el NAV de la pagina (barra de navegacion).(<nav>)
+6-Productos es la primera seccion de la pagina SECTION.(<section>)
+7-Productos tambien puede estar dentro de main ya que es lo principal de la pagina etiqueta MAIN.(<main>)
+8-Tiene otra SECTION "empleados" debajo de los productos.(<section>)
+9-Dentro de empleados hay una tabla (<table> que dentro tiene dos <th> para el titulo de la tabla y dentro tiene 3 <td>) para los datos.
+10-Debajo otra section con un form (<form>) el formulario tiene 2 label (<label>)uno con nombre y email tambien tiene un Text area (<texarea>)y 3 input (<input>) para rellenar con lo especificado y un button para enviar los datos rellenados
+11-Finalmente tiene un footer donde tiene un details con la ubicacion de la floreria y un pequeño parrafo (<p>) con datos de la floreria de los derechos de imagen.
+
