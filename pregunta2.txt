@@ -1,0 +1,13 @@
+•	Identificar 10 elementos html5. (7 puntos)
+•	Desarrolle una breve descripción de cada uno de los 10 elementos html5 identificados (7 puntos)
+
+1. <header>: Encabezado que representa el contenido introductorio, primera parte del body.
+2. <h1>: Es un encabezado que marca el título de la página web, son 6 niveles el h1 es el mas grande. Generalmente va en el header.
+3. <body>: Representa el contenido principal del documento HTML. Donde van incluidos los elementos que siguen a continuación.
+4. <p>: distribuye el texto en párrafos. En este caso, esta incluido en un main dentro del body.
+5. <nav>: proporciona enlaces de navegación, dentro del mismo doc u otro, también se encuentra incluido dentro del body, en este caso después del elemento main.
+6. <ul>: proporciona una lista desordenada, se situa dentro del elemento nav. En este caso muestra los productos, contacto.
+7. <ol>: proporciona una lista ordenada, también se situa dentro de un elemento nav.
+8. <table>: sirve para crear una tabla, puede ir dentro de un elemento section y article respectivamente.
+9. <form>: sirve para crear un formulario, también se incorpora dentro de un elemento section, generalmente se utiliza para ingresar datos.
+10. <footer>: pie de página. La última parte del elemento body.
