@@ -1,0 +1,30 @@
+
+head - cabeza de la pagina donde se encuentran las metas de la pagina, links importantes ccs, etc
+
+
+header - encabezado de la pagina
+
+  - h1 - titulo principal de la pagina dentro de header
+  - h2 - subtitulo de la pagina
+  - nav- etiqueta de navegacion donde contiene principalmente atajos de la pagina 
+      -ul- sirve para crear una lista desordenada 
+         -li- es un elemento de lista
+            -a- etiqueta para crear un vinculo con alguna id, links, archivos etc
+
+
+body- cuerpo de la pagina
+     -ol- etiqueta para crear una lista ordenada
+
+table - crear tablas
+  -th- define un titulo enegrecida de la tabla
+  -tr- etiqueta para crear filas de una tabla.
+  -td crear una celda de la tabla 
+
+
+  label - dar nombre un input
+  input - crea una barra de texto, (esto segun que TYPE quieras poner, puede ser una opcion para subir archivos, cuadros de texto etc)
+  button - boton de enviar
+
+footer
+h3- titulo 
+p- etiqueta para agregar texto
