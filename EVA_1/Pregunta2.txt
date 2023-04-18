@@ -1,0 +1,18 @@
+1- Lo primero que encontramos es un header h1 llamado "Florería Rosalinda" que se encuentra en el Body, en la parte del header. Es único y es el más importante de la página ya que entrega el titulo, en este caso el nombre de la Florería.
+2- A continuacion tenemos 2 h2 que estan en el header luego del h1 ("Bienvenidos ...." y "Nos enorgullece... para todos los gustos", que entregan la bienvenida y lo que ofrecen como servicio.
+3- Tenemos un ul (una lista sin orden) dentro del nav (que esta en el body), los cuales tienen como lista a "Productos", "Empleados" y "Contactos".
+4- Los "Productos", "Empleados" y "Contactos" son referencias (href) que redirigen a su respectiva id al clickear cualquiera de ellos al lugar especifico donde esten ubicados dentro del la página.
+5- Ya en main (body), encontramos "Productos", "Empleados" y "Contactos" en h2, que estan en distintos secciones para separarse entre sí (section) que tienen un id unico para que sean referenciadas desde el nav.
+6-En Productos (h2), encontramos una lista ordenada (ol) enumerada ("Rosas","Liliums", "Margaritas" y "Girasoles").
+7- En "Empleados" (h2), encontramos una tabla de 2 Columnas y 4 Filas, con encabezados de "Nombre y "Cargo".
+8- En "Contacto" tenemos un formulario (form) donde encontramos "Nombre", "Email" y "Mensaje" con su espacio en blanco que tiene que rellenar con datos el usuario cuando quiera enviar un mensaje, presionando "enviar".
+9- En "Ubicacion", nos encontramos con que esta en details, ya que al apretar donde dice "Direccion" nos despliega los datos de ésta.
+10- Ya en el footer (al final del body), nos encontramos el texto "Gracias por ....!!!" (h3) y el texto de los derechos de autor (en parrafo p)
+
+
+
+
+
+
+
+
