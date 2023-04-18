@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    html, body {
+        background-color: cadetblue;
+    }
+        </style>
+</head>
+<body>
+   
+    <header>
+        <img src="AUTO.jpg" alt="No se pudo cargar la imagen" width="150" height="150">
+        <center><h1>Alquiler de automiviles "FASTCAR"</h1></center>
+    <nav>
+        <a href="Automoviles" target="_blank">Automoviles</a>
+        <a href="Servicio" target="_blank">Servicio</a>
+        <a href="Contacto" target="_blank">Contacto</a>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Nuestro servicio</h2>
+        <p>El modelo de negocio de alquiler de automóviles se basa en ofrecer un servicio temporal de uso de vehículos a personas y empresas que necesitan un medio de transporte para desplazarse. En este modelo, el propietario del vehículo lo pone a disposición de los clientes por un período determinado, a cambio de una tarifa acordada previamente. El alquiler de automóviles se puede hacer por horas, días, semanas o incluso meses, dependiendo de las necesidades del cliente. Además, este modelo de negocio puede ofrecer diferentes tipos de vehículos, desde automóviles pequeños y económicos hasta vehículos de lujo, camionetas y minibuses, según la demanda del mercado y la capacidad del negocio. El objetivo del negocio de alquiler de automóviles es ofrecer a los clientes un servicio de transporte cómodo y eficiente, con la flexibilidad de poder alquilar un vehículo por un período específico, sin tener que invertir en la compra y mantenimiento del mismo. Para ello, se requiere una gestión cuidadosa del inventario de vehículos, la implementación de un sistema de reservas en línea y un servicio de atención al cliente eficiente para asegurar la satisfacción del cliente y la rentabilidad del negocio.</p>
+    </section>
+    <section>
+        <h3>Automoviles disponibles para alquilar</h3>
+    </section>
+</main>
+<dialog id="mercedes">
+    <img src="s.jpg" alt="A200" />
+    <img src="audi.jpg" alt="A200" />
+    <h2>Mercedes Benz A200 2018</h2>
+    <p>Precio por día $100.000</p>
+    <button id="close" onclick="document.getElementById('mercedes').close()">Salir</button>
+    </dialog>
+    <button id="show" onclick="document.getElementById('mercedes').showModal()">Mercedes Benz A200 2018</button></li> <br>
+    <br>
+    <dialog id="audi">
+        <img src="g.jpg" alt="A200" />
+        <img src="mercedes.jpg" alt="A200" />
+        <h2>Audi A5 2021</h2>
+        <p>Precio por día $150.000</p>
+        <button id="close" onclick="document.getElementById('mercedes').close()">Salir</button>
+        </dialog>
+        <button id="show" onclick="document.getElementById('mercedes').showModal()">Audi A5 2021</button></li><br>
+        <br>
+        <dialog id="jetour">
+            <img src="asasd.jpg" alt="A200" />
+            <img src="fdghf.jpg" alt="A200" />
+            <h2>Jetour x70 2022 AT</h2>
+            <p>Precio por día $60.000</p>
+            <button id="close" onclick="document.getElementById('mercedes').close()">Salir</button>
+            </dialog>
+            <button id="show" onclick="document.getElementById('mercedes').showModal()">Jetour x70 gls 2022</button></li>
+<section>
+    <h2>Contacto</h2>
+    <br><details>
+        <summary>Ver Formulario de Contacto</summary><br><br>
+    <div id="contacto">
+        <form>
+        <label style="display: inline-block;width: 200px;" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" ><br><br>
+        <label style="display: inline-block;width: 200px;" for="email">Correo Electronico:</label>
+        <input type="email" id="email" name="email" ><br><br>
+        <label style="display: inline-block;width: 200px;" for="telefono">Numero de telefono::</label>
+        <input type="email" id="telefono" name="telefono" ><br><br>
+        <label style="display: inline-block;width: 200px;" for="nombre">Fecha de inicio de alquiler:</label>
+        <input type="date"><br><br>
+        <label style="display: inline-block;width: 200px;" for="nombre">Fecha de finalizacion de alquiler:</label>
+        <input type="date"><br><br>
+        <label style="display: inline-block;width: 200px;" for="dog-names">Selecciona un vehiculo:</label><select name="dog-names" id="mercedes">
+        <option value="Mercedes Benz A200 2018">Mercedes Benz A200 2018</option>
+        <option value="Audi A5 2021">Audi A5 2021</option>
+        <option value="Jetour x70 2022">Jetour x70 gls 2022</option>
+        <label style="inline-block;width:200px;" for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" ></textarea><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar datos de formulario">
+        </form>
+        </div>
+    </details>
+</section>
+<center>
+    <footer>
+        <h3>Alquiler de automiviles "FASTCAR"</h3>
+        <p>Derechos reservados © 2023 Alquiler de automoviles</p>
+    </footer>
+</center>
+</body>
+</html>
