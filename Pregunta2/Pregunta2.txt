@@ -1,0 +1,12 @@
+Se utilizan las etiquetas:
+<body>: define el contenido principal de un documento HTML. 
+<header>: Encabezado del documento. 
+<main> Texto principal de la pagina o Web
+<section> :Agrupa un gripo de informacion relacionada.
+<article> : Contenido autonomo.
+<ul style="display: inline-flex; list-style-type: none;font-size: xx-large;">: Lista desordenada de elementos
+<table>: Uso de tablas.
+<tr>: Permite ingresar los datos de la tabla.
+<form>: Permite crear un formulario.
+<label>: Asigna la etiqueta de la informacion requerida del formulario.
+<footer> : Etiqueta para insertar informacion para el pie de pagina
