@@ -1,0 +1,10 @@
+.- <header> = Elemento que contiene la parte superior de una página.
+.- <body> = Contiene la parte principal del sitio.
+.- <footer> = Contiene la parte inferior de un sitio web.
+.- <h1> = Elemento header de mayor tamaño. Header.
+.- <list> = Objeto que permite generar una lista. Body.
+.- <li> = Elemento de una lista. Body.
+.- <a> = Objeto que sirve para hacer vínculos. Body.
+.- <table> = Elemento que permite crear una tabla. Body.
+.- <ol> = Elemento de lista ordenada. Body.
+.- <textarea> = Elemento que permite ingresar texto multi-línea. Body.
