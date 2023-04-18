@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="automoviles de alquiler">
+    <title>FASTCAR</title>
+</head>
+<body style="background-color: cadetblue;">
+    <header>
+        <img src="header.jpg" alt="mujer recibiendo llaves de auto">
+        <h1 ><center>Alquiler de automoviles "FASTCAR"</center></h1>
+        <nav style='text-align:right'>
+            <a href="#automoviles">Automoviles</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="servicio">
+            <h2>Nuestro Servicio</h2>
+            <p>El modelo de negocio de alquiler de automóviles se basa en ofrecer un servicio temporal de uso de vehículos a personas y empresas que necesitan un medio de transporte para desplazarse. En este modelo, el propietario del vehículo lo pone a disposición de los clientes por un período determinado, a cambio de una tarifa acordada previamente. El alquiler de automóviles se puede hacer por horas, días, semanas o incluso meses, dependiendo de las necesidades del cliente. Además, este modelo de negocio puede ofrecer diferentes tipos de vehículos, desde automóviles pequeños y económicos hasta vehículos de lujo, camionetas y minibuses, según la demanda del mercado y la capacidad del negocio. El objetivo del negocio de alquiler de automóviles es ofrecer a los clientes un servicio de transporte cómodo y eficiente, con la flexibilidad de poder alquilar un vehículo por un período específico, sin tener que invertir en la compra y mantenimiento del mismo. Para ello, se requiere una gestión cuidadosa del inventario de vehículos, la implementación de un sistema de reservas en línea y un servicio de atención al cliente eficiente para asegurar la satisfacción del cliente y la rentabilidad del negocio.</p>
+        </section>
+
+        <section id="automoviles">
+            <h2>Automoviles disponibles para alquilar</h2>
+            <ul>
+                <li >
+                    <dialog id="Mercedes Benz A200 2018" >
+                            <h2>Mercedes Benz A200 2018 </h2>
+                            <img src="mercedes1.jpg" alt="mercedes benz" width="300" height="300"/>
+                            <img src="mercedes2.jpg" alt="mercedes benz" width="300" height="300"/>
+                            <p>Precio por día: $100.000</p>
+                            <button id="close" onclick="document.getElementById('Mercedes Benz A200 2018').close()" style="color: red;">Salir</button>
+                    </dialog>
+                    <button id="show" onclick="document.getElementById('Mercedes Benz A200 2018').showModal()" style="color: red;">Mercedes Benz A200 2018</button></li>
+
+
+                <li>
+                    <dialog id="Audi A5 2021">
+                            <h2>Audi A5 2021</h2>
+                            <img src="audi1.jpg" alt="Audi A5 2021" width="300" height="300"/>
+                            <img src="audi2.jpg" alt="Audi A5 2021" width="300" height="300"/>
+                            <p>Precio por día: $150.000</p>
+                            <button id="close" onclick="document.getElementById('Audi A5 2021').close()" style="color: red;">Salir</button>
+                            </dialog>
+                            <button id="show" onclick="document.getElementById('Audi A5 2021').showModal()" style="color: red;">Audi A5 2021</button></li>
+
+                </li>
+
+                <li>
+                    <dialog id="Jetour x70 gls 2022">
+                        <h2>Jetour x70 gls 2022</h2>
+                        <img src="jetour1.jpg" alt="Jetour x70 gls 2022" width="300" height="300"/>
+                        <img src="jetour2.jpg" alt="Jetour x70 gls 2022" width="300" height="300"/>
+                        <p>Precio por día: $60.000</p>
+                        <button id="close" onclick="document.getElementById('Jetour x70 gls 2022').close()" style="color: red;">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('Jetour x70 gls 2022').showModal()" style="color: red;">Jetour x70 gls 2022</button></li>
+            </ul>
+            
+                
+
+                
+
+
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <details>
+                <summary>Ver Formulario de contacto</summary>
+            <form>
+                <label style="display: inline-block;width: 80px;" for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label style="display: inline-block;width: 80px;" for="Correo electronico">Correo electronico:</label>
+                <input type="email" id="Correo electronico" name="nombre" required><br>
+
+                <label style="display: inline-block;width: 80px;" for="nombre">Numero de telefono</label>
+                <input type="tel" id="nombre" name="Numero de telefono" required><br>
+
+                <label style="display: inline-block;width: 80px;" for="nombre">Seleciona un vehiculo</label>
+                <select name="select">
+                    <option value="Jetour x70 gls 2022">Jetour x70 gls 2022 1</option>
+                    <option value="Audi A5 2021" selected>Audi A5 2021</option>
+                    <option value="Mercedes Benz A200 2018">Mercedes Benz A200 2018</option>
+                  </select><br>
+                
+
+                <label style="display: inline-block;width: 80px;" for="nombre">Fecha de inicio de alquiler</label>
+                <input type="date" id="nombre" name="Fecha de inicio de alquiler" required><br>
+
+                <label style="display: inline-block;width: 80px;" for="nombre">Fecha de finalizacion de alquiler</label>
+                <input type="date" id="nombre" name="Fecha de finalizacion de alquiler"required><br>
+
+                <label style="display: inline-block;width: 80px;" for="nombre">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar datos de formulario">
+        
+                
+            </form>
+        </details>
+
+        </section>
+
+    </main>
+    <footer>
+        <p><center>Alquiler de automoviles "FASTCAR"</center></p>
+        <p><center>Derechos reservados Alquiler de automoviles</center></p>
+    </footer>
+</body>
+</html>

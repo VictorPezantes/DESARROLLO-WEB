@@ -1,0 +1,17 @@
+Identificar 10 elementos html y desarrollar una breve descripción. 
+
+1) body: corresponde a todos los elementos que serán visibles para el lector en la pagina web. 
+2) header: es una subsección del body, corresponde a la cabecera de pagina y debería ser constantes en todas las 
+paginas que compongan la web. Aquí corresponde a un titulo h1, un titulo h2 y otro h2 y un nav. 
+3) h1-(Florería Rosalinda): Es el titulo de mayor jerarquía en una pagina web y no debe haber mas de uno. 
+4) nav-(Productos-Empleados-contacto): Es el navegador el cual enlaza con otras paginas o secciones de la web. Puede estar o no dentro del header 
+    (aqui parece que no) y presenta enlaces a tres secciones. 
+5) main: es el contenido principal de la pagina web y corresponde al desarrollo de las secciónes/article/aside (aqui no hay) del body. 
+6) section: corresponde a todos los elementos divisibles en secciones en este caso productos/empleados/contacto/ubicacion. no tiene un caracter semantico.
+
+6) formulario/form (en contacto): corresponde a la sección de llenado donde el usuario completa datos que se enviaran al servidor. 
+7) tabla/table (en empleados): corresponde a la disposicion de una tabla. En esta tabla hay una thead y un tbody. 
+8) lista/ol ( en productos): corresponde a un listado ( en este caso ordenado) en el cual se van indicando elementos. 
+9) details (en ubicación): corresponde a información del body que será desplegada en caso de clickear en ella. 
+10)footer ("gracias por visitar nuestra pagina ..."): Es el pie de pagina, se ubica dentro del body y debería repetirse 
+    en todas las paginas. 
