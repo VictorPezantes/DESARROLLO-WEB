@@ -1,0 +1,14 @@
+Comentarios
+
+1- Presenta un head con su respectivo title.
+2- En el body:
+	- Presenta header con enunciado utilizando h1 (Floreria Rosalinda) y un subtitulo con h2 (Bienvenido a nuestra ...).
+ 	- En el nav presenta 3 enlaces en parrafo p, con su enunciado en h3.
+	- Se utiliza h3 para señalar los productos en lista (ordenada) li.
+	- Se utiliza h3 para indicar los empleados, a continuacion se utliza una tabla enmarcada.
+	- Se utiliza h3 para contacto y debajo se crea el formulario respectivo.
+	- Se utiliza h3 para Ubicacion y para continuar en parrafo p adjunto a un hipervinculo relacionado con la direccion del negocio.
+3- En el footer:
+	- Utilziando h4 se coloca centralizado hacia la izquierda dos parrafos p, el primero utilizando negrita b, luego salto de linea br para finalizar con parrafo de tipo legal con simbolo de marca registrada. 
+
+	

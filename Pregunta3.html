@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="rentacar, renting, mercedes, audi, joltion""">
+    <meta name="description" content="Arriendo de vehiculo">
+    <title>FASTCAR</title>
+    <img src="fotos/llaves.jpg"
+</head>
+
+<body>
+
+    <body style="background-color:cadetblue;">
+    </body>
+    <header>
+        <center>
+            <h1>Alquiler de Automoviles "FASTCAR"</h1>
+            
+        </center>
+
+        <nav class="menú">
+                <p><a href="#">Servicios</a>
+                <a href="#">Equipo</a>
+                <a href="#">Contacto</a></p>
+            
+    </header>
+
+    <main>
+        <section>
+            <h2>Nuestro servicio</h2>
+            <p>El modelo de negocio de alquiler de automóviles se basa en ofrecer un servicio temporal de uso de vehículos a personas y empresas que necesitan un medio de transporte para desplazarse. En este modelo, el propietario del vehículo lo pone a disposición de los clientes por un período determinado, a cambio de una tarifa acordada previamente. El alquiler de automóviles se puede hacer por horas, días, semanas o incluso meses, dependiendo de las necesidades del cliente. Además, este modelo de negocio puede ofrecer diferentes tipos de vehículos, desde automóviles pequeños y económicos hasta vehículos de lujo, camionetas y minibuses, según la demanda del mercado y la capacidad del negocio. El objetivo del negocio de alquiler de automóviles es ofrecer a los clientes un servicio de transporte cómodo y eficiente, con la flexibilidad de poder alquilar un vehículo por un período específico, sin tener que invertir en la compra y mantenimiento del mismo. Para ello, se requiere una gestión cuidadosa del inventario de vehículos, la implementación de un sistema de reservas en línea y un servicio de atención al cliente eficiente para asegurar la satisfacción del cliente y la rentabilidad del negocio.</p>
+            
+        </section>
+
+        <section id="vehiculosarentar">
+            <h2>Nuestros Servicios</h2>
+            <article>
+                
+                <ul style="list-style-type:none;">
+                    <li>
+                        <dialog id="ms">
+                            <img src="fotos/mercedesblancofrontal.jpg" alt="A200.1" />
+                            <img src="fotos/mercedesblancotrasera.jpg" alt="A200.2" />
+                            <h2>Mercedes Benz A200 2018</h2> 
+                            <p>Precio por día $100.000</p>
+                            
+                            <button id="close" onclick="document.getElementById('ms').close()">Salir</button>
+                        </dialog>
+                        <button id="show" onclick="document.getElementById('ms').showModal()">Mercedes Benz A200 2018</button>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <ul style="list-style-type:none;">
+                    <li>
+                        <dialog id="audia5">
+                            
+                            <img src="fotos/audifrontal.jpg" alt="Audi1" />
+                            <img src="fotos/auditrasera.jpg" alt="Audi2" />
+                            <h2>Audi A5 2021</h2>
+                            <p>Precio por día $150.000</p>
+                            <button id="close" onclick="document.getElementById('audia5').close()">Salir</button>
+                        </dialog>
+                        <button id="show"
+                            onclick="document.getElementById('audia5').showModal()">Audi A5</button>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <ul style="list-style-type:none;">
+                <li><dialog id="jetour">
+                    
+                    <img src="fotos/autochinofr.jpg" width="200" height="200" alt="jetour1" />
+                    <img src="fotos/autochinotras.jpg" width="200" height="200" alt="jetour2" />
+                    <h2>Jetour x70 gls 2022 AT</h2>
+                    <p>Precio por día $60.000</p>
+                    <button id="close" onclick="document.getElementById('jetour').close()">Salir</button>
+                </dialog>
+                <button id="show" onclick="document.getElementById('jetour').showModal()">Jetour x70 gls 2022 AT</button></li>
+                </ul>    
+            </article>
+
+
+        </section>
+    </main>
+
+   
+
+    <section>
+        <h3>Contacto</h3>
+        
+
+        <article>
+            <form name="formulario" method="get">
+                Nombre:
+                <input type="text" name="nombre" value="" placeholder="Ingresa tu nombre" required />
+                <br><br>
+                Correo electrónico:
+                <input type="email" name="correo" value="" placeholder="Ingresa tu correo" required />
+                <br><br>
+                Número de teléfono:
+                <input type="tel" name="Teléfono" value="" placeholder="Ingresa tu numero" required />
+                <br><br>
+                Selecciona un vehiculo:
+                <select>
+                    <option value="Mercedes">Mercedes Benz A200 2018</option>
+                    <option value="Audi">Audi A5 2021</option>
+                    <option value="Mercedes">Jetour x70 gls 2022 AT</option>
+                </select>
+                <br><br>
+                Fecha de inicio alquiler:
+                <input type="text" placeholder="MM/DD/YYYY"
+                    onfocus="(this.type='date')">
+                <br><br>
+                Fecha de termino alquiler:
+                <input type="text" placeholder="MM/DD/YYYY"
+                    onfocus="(this.type='date')">
+                <br><br>
+                Mensaje:
+                <textarea name="mensaje" rows="5" cols="50">Escribe aquí tu mensaje:</textarea>
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar datos del formulario">
+            </form>
+        </article>
+    </section>
+
+    
+
+    <footer>
+        <center>
+            <p>Alquiler de vehiculos "FASTCAR" <br>Derechos reservados 2023 Alquiler de automoviles</p>
+            
+        </center>
+    </footer>
+</body>
+
+</html>
