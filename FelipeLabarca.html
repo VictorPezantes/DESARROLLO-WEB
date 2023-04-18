@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="automoviles,arriendo de autos,arriendo de camionetas,arriendo de van,alquiler de automoviles"
+    />
+    <meta
+      name="description"
+      content="pagina de alquiler de automoviles, con los mejores precios del mecado y todos los tipos y marcas del rubro"
+    />
+
+    <title>FASTCAR</title>
+  </head>
+  <body style="background-color: cadetblue">
+    <header>
+      <img src="img/logo.jpg" alt="logo" />
+      <h1 style="text-align: center">Alquiler de automóviles "FASTCAR"</h1>
+      <nav>
+        <ul style="list-style: none; display:inline-flex;">
+          <li style="margin-left: 20px;"><a href="#automoviles">automóviles</a></li>
+          <li style="margin-left: 20px;"><a href="#servicios">Servicios</a></li>
+          <li style="margin-left: 20px;"><a href="#contactos">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="servicios" class="principal">
+        <!--Nuestro automoviles -->
+        <h2>Nuestos Servicios</h2>
+        <p>
+          El modelo de negocio de alquiler de automóviles se basa en ofrecer un
+          servicio temporal de uso de vehículos a personas y empresas que
+          necesitan un medio de transporte para desplazarse. En este modelo, el
+          propietario del vehículo lo pone a disposición de los clientes por un
+          período determinado, a cambio de una tarifa acordada previamente. El
+          alquiler de automóviles se puede hacer por horas, días, semanas o
+          incluso meses, dependiendo de las necesidades del cliente. Además,
+          este modelo de negocio puede ofrecer diferentes tipos de vehículos,
+          desde automóviles pequeños y económicos hasta vehículos de lujo,
+          camionetas y minibuses, según la demanda del mercado y la capacidad
+          del negocio. El objetivo del negocio de alquiler de automóviles es
+          ofrecer a los clientes un servicio de transporte cómodo y eficiente,
+          con la flexibilidad de poder alquilar un vehículo por un período
+          específico, sin tener que invertir en la compra y mantenimiento del
+          mismo. Para ello, se requiere una gestión cuidadosa del inventario de
+          vehículos, la implementación de un sistema de reservas en línea y un
+          servicio de atención al cliente eficiente para asegurar la
+          satisfacción del cliente y la rentabilidad del negocio.
+        </p>
+      </section>
+      <!--Nuestro automoviles -->
+
+      <section id="automoviles" class="disponibles">
+        <ul style="list-style: none">
+          <li>
+            <dialog id="ms_1">
+              <img src="img/auto_1.jpg" alt="Mercedes Benz" />
+              <h2>Audi A5 2021</h2>
+              <p>Precio por día $ 150.000</p>
+              <button
+                id="close"
+                onclick="document.getElementById('ms_1').close()"
+              >
+                Salir
+              </button>
+            </dialog>
+            <button
+              id="show"
+              onclick="document.getElementById('ms_1').showModal()"
+            >
+              Mercedes Benz A200 2018
+            </button>
+          </li>
+
+          <li>
+            <dialog id="ms_2">
+              <img src="img/auto_4.jpg" alt="Jetour" />
+              <h2>Audi A5 2021</h2>
+              <p>Precio por día $ 150.000</p>
+              <button
+                id="close"
+                onclick="document.getElementById('ms_2').close()"
+              >
+                Salir
+              </button>
+            </dialog>
+            <button
+              id="show"
+              onclick="document.getElementById('ms_2').showModal()"
+            >
+              Audi A5 2021
+            </button>
+          </li>
+
+          <li>
+            <dialog id="ms_2">
+              <img src="img/auto_4.jpg" alt="Jetour" />
+              <h2>Jetour x70 gls 2022 AT</h2>
+              <p>Precio por día $ 600.000</p>
+              <button
+                id="close"
+                onclick="document.getElementById('ms_2').close()"
+              >
+                Salir
+              </button>
+            </dialog>
+            <button
+              id="show"
+              onclick="document.getElementById('ms_2').showModal()"
+            >
+              Jetour x70 gls 2022 AT
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contactos">
+        <h2>Contactos</h2>
+        <details>
+          <summary>Ver formulario de contacto</summary>
+          <form action="">
+            <label for="">Nombre: </label>
+            <input type="text" />
+            <label for="">Correo Electrónico: </label>
+            <input type="email" name="" id="" />
+            <label for="">Numero de Teléfono: </label>
+            <input type="number" />
+            <label for="">Selecciona un vehículo</label>
+            <select name="" id="">
+              <option value="">automóviles</option>
+              <option value="">Servicios</option>
+              <option value="">Contactos</option>
+            </select>
+            <label for="">Fecha de Inicio de Alquiler</label>
+            <input type="date" />
+            <label for="">Fecha de Finalización de Alquiler</label>
+            <input type="date" />
+            <label for="">Mensaje</label>
+            <textarea></textarea>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar datos del formulario</button>
+          </form>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <h3>Alquiler de automóviles "FASTCAR"</h3>
+      <h6>Derechos &copy; reservados 2023 Alquiler de automóviles</h6>
+    </footer>
+  </body>
+</html>
