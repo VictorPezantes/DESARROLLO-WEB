@@ -1,0 +1,24 @@
+Se esta Usando
+
+Para la seccion de contacto se ocupan 2:
+
+1.- Form: Representa una seccion con controles interactivo que permiten al usuario enviar informacion
+2.- Table : Se utiliza para dar orden a una tabla que debera llenar el usuario
+
+Sector Ubicacion se ocupa
+
+3.- Summary: Representa un resumen, un título  para los contenidos de un details.
+4.- Details: Aca el usuario puede obtener información adicional . Contenido dinámico en este caso un mapa.
+5.- Ifram: nos permite visualizar un documento HTML u otra página web dentro de nuestra web, en este caso  un posible mapa de Google Maps
+
+En el menu Deslizable se ocupa
+
+6.- Nav : Representa una sección la cual proporciona enlaces de navegación, ya sea dentro del documento o a otros documentos, en este caso los 'section'
+7.- Li: Sirve para declarar cada uno de los elementos de una lista.
+8.-href: Es un atributo que se utiliza para hacer referencia a otro documento. Puede encontrarlo en etiquetas de enlace y etiquetas de anclaje (#).
+
+Cuerpo general 
+9.- Header: Representa un grupo de ayudas introductorias o de navegación por ejemplo las palabras claves cuando buscan la pagina.
+10.- Main: Representa el contenido principal del <body> de la pagina.
+11.- Section: Representa una sección genérica de una pagina, es informacion complementaria del documento
+12.- Body: Representa el cuerpo de la pagina web.
