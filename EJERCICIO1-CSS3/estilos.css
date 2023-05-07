@@ -1,0 +1,66 @@
+.fondo{
+    background-image: url(imagenes/1.jpeg);
+}
+h1,p,button{
+    color: aliceblue;
+    background-color: red;
+    border: solid blue;
+}
+.item{
+    color: aliceblue;
+    background-color: red;
+    border: 10px solid blue;
+}
+li{
+    color: white;
+    font-size: 30px;
+    display: inline;
+}
+li:hover{
+    transition: .3s;
+    color: green;
+    background-color: white;
+}
+ul{
+    list-style: none;
+}
+button:hover{
+    transition: .3s;
+    color: green;
+    background-color: white;
+}
+a:hover{
+    transition: .3s;
+    color: green;
+    background-color: white;
+}
+.imagenes{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    display: flex;
+}
+.menu{
+    display: inline-block;
+    padding: 10px;
+}
+.imag-2{
+    margin: 0;
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.imag-3{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid blue;
+    background-color:blueviolet ;
+}
+.tabla{
+    border: 2px solid gray;
+    background-color: blue;
+    color: aliceblue;
+}
+.formulario{
+    background-color: blue;
+    border: 3px solid black;
+}
