@@ -1,0 +1,80 @@
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.boton {
+    background-color: red;
+    cursor: pointer;
+    color: yellow;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    
+}
+
+.boton:hover {
+    background-color: green;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+th {
+    background-color:  violet;
+}
+
+tr:nth-child(even){   
+    background-color: orange;
+}
+
+
+tr:hover {
+    background-color: aqua;
+}
+
+nav ul  {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    justify-content: space-between;
+    background-color: aqua;
+    
+}
+
+li:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(2); 
+}
+
+.zoom2 {
+    transition: transform .2s; 
+}
+ 
+.zoom2:hover {
+    opacity: 0; 
+}
