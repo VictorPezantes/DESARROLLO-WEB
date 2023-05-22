@@ -1,0 +1,75 @@
+body {
+    background-color: #195789 ;
+}
+nav ul{
+    list-style-type: none;
+}
+nav {
+    width: 1000px;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 10px;
+    background-color: #5f8cb0;
+}
+nav ul li {
+    font-size: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.primerul {
+    color: white;
+}
+
+.xdd {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.xddd {
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+.xdddd {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.aa {
+    color: white;
+}
+.par {
+    color: white;
+}
+.parr {
+    color: yellow;
+}
+.get {
+    text-align: center;
+    background-color: white;
+    display: flex;
+}
+.ulul {
+    text-decoration: none;
+}
+.gett {
+    margin-top: 15px;
+    border-top: solid lightblue;
+}
