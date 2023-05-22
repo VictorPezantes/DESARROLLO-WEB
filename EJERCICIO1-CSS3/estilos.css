@@ -22,7 +22,7 @@ li:hover{
     background-color: white;
 }
 ul{
-    list-style: none;
+    list-style-type: none;
 }
 button:hover{
     transition: .3s;

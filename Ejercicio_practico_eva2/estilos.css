@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #306998;
+    justify-content: center;
+}
+
+.main {
+    text-align: center;
+}
+
+.menu {
+    
+    margin: 100px;
+    /* display: inline-block; */
+    padding: 10px 100px;
+    background-color: #4B8BBE;
+    border-radius: 10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+nav ul li {
+    color: white;
+    font-size: 30px;
+    display: inline;
+}
+
+.item-menu {
+    color: aliceblue;
+    background-color: #4B8BBE;
+    margin-right: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+}
+
+.titulo {
+    color: black;
+}
+
+.tamaño {
+    color: yellow;
+    list-style: none;
+}
+.asidesect{
+    padding: 50px;
+    border-bottom: solid black 3px;
+}
+.Principal-1{
+    display: flex;
+    justify-content: space-around;
+}
+.enlaces{
+    text-align: center; 
+    /* border-right: solid 1px blue; */
+    padding:0 200px;
+}
+.parrafos{
+    text-align: center;
+    padding: 0;
+    
+}
+.parrafo-2{
+    color: yellow;
+    padding-top: 10px;
+    text-align: center;
+}
+.parrafo-3{
+    color: white;
+    padding-top: 30px;
+}
+.Principal-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion-2 {
+    background-color: white;
+    padding: 30px 300px;
+    text-align: center;
+    /* border-right: solid 1px blue; */
+}
+
+footer{
+    text-align:center;
+    display: flex;
+    justify-content:center;
+    padding: 140px 20px;
+}
+footer p{
+    color: white;
+}
+.Lista{
+    color: cyan;
+}
+.arriba{
+    text-align: right;
+    padding: 10px;
+}
+.buscador{
+    text-align: right;
+}
