@@ -38,3 +38,9 @@ display:inline-block;}
 }
 
 .portada{border-radius: 4%;}
+
+.imagenes {
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
