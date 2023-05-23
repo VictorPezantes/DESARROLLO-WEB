@@ -1,0 +1,40 @@
+
+.cuerpo{background-color:#fff0c9;}
+
+.titulo-footer{display:block}
+
+.redes{width: 30%;
+    display:inline-block;}
+
+footer img{width:5%;}
+.enlaces{
+    width: 30%;
+    display: inline-block;
+    font-size: 75%;}
+
+footer ul li {list-style: none;}
+
+.correo{width: 30%;
+    font-size:75%;
+    display: inline-block;}
+
+.boton {padding:8px;}
+.input {size: 10px;}
+
+
+.titulo{text-align: center;}
+
+.cuerpo{background-color:#fff0c9;}
+
+.izquierda{width:55%;display: inline-block; text-align: left;}
+.derecha{width:25%;
+display:inline-block;}
+
+.menu {text-align: center; padding-bottom:10px}
+.texto{text-decoration:none; padding-left:10px;}
+
+.cabeza {
+    border-bottom: solid 1px;
+}
+
+.portada{border-radius: 4%;}
