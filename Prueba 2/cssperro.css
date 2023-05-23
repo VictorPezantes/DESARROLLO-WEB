@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(246, 227, 151);
+}
+
+h1 {
+    font-size: 10px;
+    padding-left: 150px ;
+}
+h3 {
+    padding-left: 150px;
+}
+nav {
+    border-bottom: solid black 1px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+nav ul li {
+    margin: 10px;
+}
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+nav ul li a {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.imagen1 {
+    border-radius: 10px;
+}
+.conocenos {
+    text-align: right;
+    font-size: 10px;
+}
+
+.ull {
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    
+    
+    
+}
+.aa {
+    
+    color: black;
+    font-size: 10px;
+    
+}
+.registro {
+    text-align: right;
+    font-size: 10px;
+}
+.seccion2 {
+    text-align: right;
+}
+.titu {
+    padding-left: 150px;
+    margin-bottom: -50px;
+}
