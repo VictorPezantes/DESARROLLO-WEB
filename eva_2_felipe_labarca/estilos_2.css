@@ -1,0 +1,92 @@
+
+/*  Estilos Generales  */
+
+body{
+    background-color: #fff0C9;
+}
+
+
+img{
+    border-radius: 40px !important;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    width: 40%;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+/*  Clases Personalizadas  */
+
+
+.text-color{
+    color:#000000;
+}
+.titulo_principal{
+    padding-top: 60px;
+}
+
+.titulo{
+    color: #000000;
+    font-size: 46px;
+    font-style: normal;
+    padding-top: 60px;
+}
+
+.sub-titulo{
+    color: #000000;
+    font-size: 32px;
+    font-style: normal;
+}
+
+.contenido-gr{
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+
+}
+
+.bienvenida{
+    padding-top: 30px;
+}
+
+.enlaces{
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+
+}
+
+.logo_xs{
+    color: #000000;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+
+.mala{
+    border-radius: 40px;
+}
+
+.input-corr {
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+.button {
+    padding: 8px;
+    background-color: #fff0c9;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.link-footer{
+    display: flex;
+    flex-direction: column;
+}
