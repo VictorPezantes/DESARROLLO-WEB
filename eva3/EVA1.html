@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box"></div><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <button> 0 </button>
+
+    <table onclick="changeTableCellText(event)">
+        <tr>
+          <td>Texto 1</td>
+          <td>Texto 2</td>
+        </tr>
+        <tr>
+          <td>Texto 3</td>
+          <td>Texto 4</td>
+        </tr>
+      </table>
+
+      <ul id="list"></ul>
+      <input type="text" id="listInput" placeholder="Ingrese un elemento">
+      <button onclick="addItemToList()">Agregar a Lista</button><br><br>
+
+    <div>
+        <img src="images/descarga.jpg"  alt="...">
+        <img src="images/img2.jpg"  alt="...">
+        <img src="images/img3.jpg"  alt="...">
+        <img src="images/img4.jpg"  alt="...">
+    </div><br>
+
+    <div class="dropdown">
+        <button>Menu Desplegable</button>
+        <div class="dropdown-content">
+        <a >aiep</a>
+        <a >inacap</a>
+        <a >duoc</a>
+        </div>
+      </div><br><br>
+
+      <textarea name="message" onkeyup="countChars(this);"></textarea>
+      <p id="charNum">25 characters remaining</p>
+
+      <form onsubmit="validateForm(event)">
+        <input type="text" id="nameInput" placeholder="Nombre" required>
+        <input type="" id="emailInput" placeholder="Correo Electrónico" required>
+        <input type="password" id="passwordInput" placeholder="Contraseña" required>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="animatedElement" onclick="fadeOutElement(this)">Haz clic aquí para animación</div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
