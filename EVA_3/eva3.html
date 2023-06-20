@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type='text/css' href="eva3.css">
+</head>
+
+<body>
+    <!--< 1. CAMBIO DE ESTILO: Crea una función que cambie el color de fondo de un elemento al hacer clic en él.(7 puntos)-->
+    <section id="pregunta1">
+        <h2>Pregunta1</h2>
+        <div id="cambiocolor" class="color"></div>
+    </section>
+    <hr>
+
+
+    <!--< 2. CONTADOR DE CLICS: Crea un contador que aumente en uno cada vez que se haga clic en un botón y muestre el resultado en un elemento HTML. .(7 puntos)-->
+    <section id="pregunta2">
+        <h2>Pregunta2</h2>
+        <button id="botonClick">Click</button>
+        <p id="areaContador"></p>
+    </section>
+    <hr>
+
+    <!--<3. LISTA INTERACTIVA: Crea una lista de elementos y permite agregar nuevos elementos a través de un formulario. Los elementos deben aparecer automáticamente en la lista. .(7 puntos)-->
+    <h2>Pregunta3</h2>
+    <h1>Lista de elementos</h1>
+    <form id="formulario">
+        <input type="text" id="nuevoElemento" placeholder="Ingrese un nuevo elemento">
+        <button type="submit">Agregar</button>
+    </form>
+
+    <ul id="listaElementos"></ul>
+    <hr>
+
+
+
+    <!--<4. GALERÍA DE IMÁGENES: Crea una galería de imágenes en la que se pueda hacer clic en cada imagen para verla en un tamaño más grande. .(7 puntos)-->
+    <h2>Pregunta4</h2>
+    <div class="galeria">
+        <img src="img1.jpg" alt="Imagen 1" class="imagen">
+        <img src="img2.jpg" alt="Imagen 2" class="imagen">
+        <img src="img3.jpg" alt="Imagen 3" class="imagen">
+        <img src="img4.jpg" alt="Imagen 4" class="imagen">
+    </div>
+
+    <div id="modal">
+        <span class="cerrar">&times;</span>
+        <img id="imagenModal" src="">
+    </div>
+    <hr>
+
+    <!--<5.VALIDACIÓN DE FORMULARIO: Crea un formulario con campos de nombre, correo electrónico y contraseña. Valida que todos los campos estén completos antes de enviar el formulario, mostrar mensaje en un alert en caso un campo del formulario esté vacío .(7 puntos)-->
+    <h2>Pregunta5</h2>
+    <h1>Formulario de Registro</h1>
+
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <p id="mensaje"></p>
+    <hr>
+
+
+    <!--<6. CONTADOR DE CARACTERES: Crea un cuadro de texto que muestre cuántos caracteres quedan disponibles a medida que se escribe en él. Limita la cantidad máxima de caracteres permitidos. .(7 puntos)-->
+    <h2>Pregunta6</h2>
+    <h2>Contador de caracteres</h2>
+    <textarea name="message" onkeyup="countChars(this);"></textarea>
+    <p id="charNum"></p>
+    <hr>
+
+    <!--7. MENÚ DESPLEGABLE: Crea un menú desplegable que muestre opciones adicionales cuando se hace clic en él. .(7 puntos)-->
+    <h2>Pregunta7</h2>
+
+    <h1>Menú Desplegable</h1>
+
+    <select id="menu">
+        <option value="">Selecciona una opción</option>
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+    </select>
+    <p id="mensaje"></p>
+    <hr>
+
+
+    <!--8. ANIMACIÓN CSS: Crea una animación utilizando CSS y JavaScript. Por ejemplo, puedes hacer que un elemento se desvanezca o aumente de tamaño gradualmente al hacer clic en un botón. .(7 puntos)-->
+    <h2>Pregunta8</h2>
+    <div id="myElement"><img id="victoria" src="img5.jfif" alt=""></div>
+    <button onclick="fadeOut()">Apretar para Desvanecer</button>
+    <hr>
+
+
+    <script src="eva3.js"></script>
+</body>
+
+</html>
+
+
+
+
