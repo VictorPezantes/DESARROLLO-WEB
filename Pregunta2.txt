@@ -1,9 +1,0 @@
-Pregunta 2.- 
-Hay un <Title> Que sería Florería Rosalinda que es el titulo de la página.
-Hay un <style> con un colourbackground en tono celeste, que es el color que tomará el fondo de la página
-Después hay un <Body> que es el cuerpo de página en donde se encuentra un <header> con una descripción en <h1>.
-Hay un <nav> en donde se encuentran 3 referencias productos, empleados y contacto dentro de un <ol>.
-Hay una tabla dentro de un <section>
-Hay unos cuadros de texto de un <form action =””>
-Hay un <footer> centrado al medio con un gracias.
-
