@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section>
+        <h2>pregunta numero 1</h2>
+        <button class="boton">click para cambiar color del boton</button>
+    </section>
+
+    <section>
+        <h2>pregunta numero 2</h2>
+        <button onclick="incrementCounter()">sumador de clicks</button>
+        <p id="contadordeclick">0</p>
+    </section>
+
+    <section>
+        <h2>pregunta 3</h2>
+        <ul id="listaint"></ul>
+        <form onsubmit="agregaritemlista(event)">
+            <input type="text" id="listainput" placeholder="Ingrese un elemento" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>pregunta 4</h2>
+        <section id="albumimagenes">
+            <img src="imagen1.jpg" onclick="album(this)" >
+            <img src="imagen2.jpg" onclick="album(this)" >
+            <img src="imagen3.jpg" onclick="album(this)" >
+          </section>
+
+          <section id="imagenmodificada">
+            <img id="imagen">
+          </section>
+    </section>
+
+
+    <section>
+        <h2>pregunta numero 5</h2>
+        <form id="miFormulario">
+            <input type="text" id="nombre"  placeholder="nombre">
+            <input type="" id="email"  placeholder="email">
+            <input type="password" id="contraseña"  placeholder="contraseña">
+            <button type="submit" onclick="validarFormulario()">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>pregunta 6</h2>
+        <input type="text" id="inputt" maxlength="20">
+        <p id="contadorcaracteres">0/20</p>
+    </section>
+
+    <section>
+        <h2>pregunta 7</h2>
+
+        <button id="boton2">Mostrar Lista de Opciones</button>
+        <section id="textoOculto">
+          <li class="option">Opción 1</li>
+          <li class="option">Opción 2</li>
+          <li class="option">Opción 3</li>
+        </section>
+
+    </section>
+
+    <section>
+        <h2>pregunta 8</h2>
+        <section  onclick="desvanecer(this)">Haz clic aquí para animación</section>
+    </section>
+
+
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
