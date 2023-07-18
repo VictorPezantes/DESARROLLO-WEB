@@ -1,0 +1,19 @@
+main {
+    font-size: 16px;
+    padding: 20px;
+    background-color: goldenrod;
+}
+  
+h2 {
+    cursor: pointer;
+}
+  
+ul {
+    margin-top: 10px;
+    list-style-type: disc;
+}
+  
+li {
+    margin-bottom: 5px;
+}
+  
