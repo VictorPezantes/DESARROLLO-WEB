@@ -1,0 +1,27 @@
+h1 {
+    background-color: lightblue ;
+    color: blue;
+}
+
+main {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: lightblue;
+    
+}
+
+footer {
+    display: flex;
+}
+#q {
+    display: flex;
+
+    width: 30px;
+}
